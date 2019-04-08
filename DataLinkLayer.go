@@ -1,8 +1,10 @@
 package main
 
 import (
+	"fmt"
 	"go.bug.st/serial.v1"
 	"log"
+	"strings"
 )
 
 type DataLinkLayer struct {
@@ -32,10 +34,37 @@ func (d *DataLinkLayer) sendInfoFrame(data []byte, to byte, from byte) error {
 
 func (d *DataLinkLayer) sendLinkFrameByMaster() error {
 	// тут должен быть функционал для мастер компа (инициатора)
+
+	frame, err := createFrame(LINK_FRAME, BROADCAST, MIN_ADDRESS, nil)
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
+
+	return d.sendFrame(*frame)
 }
 
-func (d *DataLinkLayer) sendLinkFrameBySlave() error {
-	// тут должен быть функционал для слейв компа (инициатора)
+// возвращает адрес текущего компа
+func (d *DataLinkLayer) sendLinkFrameBySlave(receivedFrame Frame, email string) (byte, error) {
+	// тут должен быть функционал для слейв компа
+
+	//strData := string(receivedFrame.data)
+	//clients := strings.Split(strData, "\n")
+	//last := clients[len(clients) - 1]
+	//lastData := strings.Split(last, " ")
+	//lastAddress := lastData[0][0]  // адрес однобайтовый, значит больше одного символа в строке занимать не может
+	currentAddress := receivedFrame.from + 1
+	currentData := []byte(string(currentAddress) + " " + email)
+
+	newData := append(receivedFrame.data, currentData...)
+
+	frame, err := createFrame(LINK_FRAME, BROADCAST, currentAddress, newData)
+	if err != nil {
+		log.Fatal(err)
+		return 0, err
+	}
+
+	return currentAddress, d.sendFrame(*frame)
 }
 
 func (d *DataLinkLayer) sendAckFrame(to byte, from byte) error {
@@ -76,5 +105,56 @@ func (d *DataLinkLayer) sendFrame(frame Frame) error {
 	}
 	return nil
 }
+
+// эту функцию будем пихать в горутину наверн и она будет писать в канал если что-то пришло
+// в основном потоке считываем и действуем в зависимости от этого
+func (d *DataLinkLayer) listen() error {
+	buff := make([]byte, 100)
+	for {
+		// Reads up to 100 bytes
+		n, err := d.phys.port.Read(buff)
+		if err != nil {
+			log.Fatal(err)
+			return err
+		}
+		if n == 0 {
+			fmt.Println("\nEOF")
+			break
+		} else {
+			// chan <- buff[:n]
+			fmt.Printf("%v", string(buff[:n]))
+		}
+	}
+	return nil
+}
+
+func (d *DataLinkLayer) sendStateFrame(state []byte, from byte) error {
+	frame, err := createFrame(STATE_FRAME, BROADCAST, from, state)
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
+
+	return d.sendFrame(*frame)
+}
+
+func (d *DataLinkLayer) getStateFromFrame(receivedFrame Frame) (clients map[byte]string) {
+	strData := string(receivedFrame.data)
+	clientsData := strings.Split(strData, "\n")
+
+	for _, client := range clientsData {
+		clientInfo := strings.Split(client, " ")
+
+		// адрес однобайтовый, значит больше одного символа в строке занимать не может
+		clientAddress := byte(clientInfo[0][0])
+		clientEmail := clientInfo[1]
+
+		clients[clientAddress] = clientEmail
+	}
+	return clients
+}
+
+
+
 
 
