@@ -1,0 +1,41 @@
+.dialog-list__dialog-mini {
+    width: var(--left-column-max-width);
+
+    height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    border-top: none;
+    font-family: sans-serif, Futura;
+    transition: background 0.2s ease-out;
+    box-sizing: border-box;
+}
+
+.dialog-list__dialog-mini:hover {
+    background: #FCF6BD;
+}
+
+.dialog-list__dialog-mini--checked {
+    background: #E7BB41;
+}
+
+
+.dialog-mini__author {
+    margin: 0 0 5px 0;
+
+    color: var(--primary-text-color);
+    font-weight: 700;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+
+.dialog-mini__message {
+    color: var(--secondary-text-color);
+    font-weight: 400;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+

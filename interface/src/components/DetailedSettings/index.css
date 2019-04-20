@@ -1,0 +1,8 @@
+.right-column__detailed-settings {
+    display: flex;
+    align-items: center;
+    flex-direction: column;
+    height: var(--columns-height);
+    justify-content: space-around;
+    width: 100%;
+}

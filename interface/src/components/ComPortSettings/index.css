@@ -1,0 +1,31 @@
+.com-ports__label {
+    display: inline-block;
+    width: 130px;
+}
+
+.com-ports__title {
+    font-size: 20px;
+    color: var(--primary-text-color);
+}
+
+.com-ports__speed {
+    margin-left: 10px;
+}
+
+.com-ports__apply-button {
+    border-radius: 5px;
+    border: 1px solid var(--btn-color);
+    /*background: var(--search-input-background);*/
+    color: var(--btn-color);
+    height: 30px;
+    width: 100px;
+    margin-top: 10px;
+    box-sizing: border-box;
+    padding-top: 2px;
+    text-align: center;
+    vertical-align: center;
+    display: block;
+
+    cursor: pointer;
+    user-select: none;
+}

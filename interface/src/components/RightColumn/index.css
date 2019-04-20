@@ -1,0 +1,6 @@
+.right-column {
+    height: 100vh;
+    overflow-y: hidden;
+    box-sizing: border-box;
+    flex-grow: 1;
+}

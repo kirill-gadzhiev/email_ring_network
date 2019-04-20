@@ -1,0 +1,28 @@
+.letter-reading__tool-panel {
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+
+    display: flex;
+    flex-basis: var(--bar-height);
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+}
+
+.tool-panel__delete-button {
+    border-radius: 5px;
+    border: 1px solid var(--btn-color);
+    /*background: var(--search-input-background);*/
+    color: var(--btn-color);
+    height: 30px;
+    width: 100px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: center;
+    display: block;
+
+    cursor: pointer;
+    user-select: none;
+}

@@ -1,0 +1,13 @@
+.left-column {
+    height: 100vh;
+    overflow-y: hidden;
+    overflow-x: hidden;
+
+    border-right: 1px solid var(--border-color);
+    display: flex;
+    flex-basis: var(--left-column-max-width);
+    flex-direction: column;
+    justify-content: space-between;
+    box-sizing: border-box;
+    flex-shrink: 0;
+}

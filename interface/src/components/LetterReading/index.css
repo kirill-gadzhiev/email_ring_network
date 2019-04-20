@@ -1,0 +1,53 @@
+.right-column__letter-reading {
+    /*border: 1px solid var(--border-color);*/
+    /*border-left: none;*/
+    /*border-right: none;*/
+
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: sans-serif, Futura;
+    color: var(--primary-text-color);
+    justify-content: space-between;
+}
+
+.letter-reading__info {
+    width: 100%;
+    border-bottom: 1px solid var(--border-color);
+
+    display: flex;
+    flex-basis: var(--bar-height);
+    flex-direction: row;
+    flex-shrink: 0;
+    align-items: center;
+    padding: 0 10px;
+    box-sizing: border-box;
+}
+
+.letter-reading__author__label {
+    color: var(--primary-text-color);
+    display: inline-block;
+    margin-right: 5px;
+    font-weight: 700;
+}
+
+.letter-reading__author__name {
+    display: inline-block;
+}
+
+.letter-reading__content {
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+    width: 100%;
+    box-sizing: border-box;
+    flex-grow: 1;
+}
+
+.letter-reading__message {
+    box-sizing: border-box;
+    padding: 20px 40px;
+    width: 100%;
+}

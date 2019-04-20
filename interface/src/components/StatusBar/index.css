@@ -1,0 +1,61 @@
+.left-column__status-bar {
+    width: var(--left-column-max-width);
+    flex-basis: var(--bar-height);
+    flex-shrink: 0;
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-between;
+    align-items: center;
+}
+
+.status-bar__button {
+    margin: 0 10px;
+}
+
+.status-bar__connection--connected {
+    color: var(--connection-ok-color);
+}
+
+.status-bar__connection--disconnected {
+    color: var(--connection-not-ok-color);
+}
+
+.status-bar__search {
+    background: var(--search-input-background);
+    height: 30px;
+    width: 195px;
+    color: var(--search-input-text-color);
+
+    border-radius: 5px;
+
+    font-size: 14px;
+    margin: 0 10px;
+    transition: padding-left 0.2s ease-out, width 0.2s ease-out;
+    box-sizing: border-box;
+    padding: 0 10px 0 70px;
+}
+
+.status-bar__search:focus {
+    padding-left: 10px;
+    width: 290px;
+}
+
+.status-bar__search:focus ~ .status-bar__button {
+    display: none;
+}
+
+.status-bar__search, .status-bar__search:hover, .status-bar__search:focus {
+    border: none;
+    outline: none;
+}
+
+.status-bar__new-letter--connected {
+    cursor: pointer;
+    color: var(--btn-color)
+}
+
+.status-bar__new-letter--disconnected {
+    color: var(--not-active-tab-color);
+    cursor: not-allowed;
+}

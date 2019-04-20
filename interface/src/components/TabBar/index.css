@@ -1,0 +1,25 @@
+.left-column__tab-bar {
+    width: var(--left-column-max-width);
+    flex-basis: var(--bar-height);
+    flex-shrink: 0;
+    border-top: 1px solid var(--border-color);
+
+    display: flex;
+    flex-direction: row;
+    justify-content: space-around;
+    align-items: center;
+}
+
+.tab-bar__dialogs-tab {
+    /*background-image: url("./comments-solid.svg");*/
+    color: var(--not-active-tab-color);
+}
+
+.tab-bar__settings-tab {
+    /*background-image: url("./cog-solid.svg");*/
+    color: var(--not-active-tab-color);
+}
+
+.tab-bar__tab--checked {
+    color: var(--active-tab-color);
+}

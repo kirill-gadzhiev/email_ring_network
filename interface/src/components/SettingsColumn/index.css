@@ -1,0 +1,10 @@
+.left-column__settings-column {
+    /*height: var(--columns-height);*/
+    width: var(--left-column-max-width);
+
+    display: flex;
+    flex-direction: column;
+    /*justify-content: space-around;*/
+    box-sizing: border-box;
+    flex-grow: 1;
+}

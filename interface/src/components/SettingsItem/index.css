@@ -1,0 +1,20 @@
+.settings-column__settings-item {
+    max-width: var(--left-column-max-width);
+    height: 30px;
+    border-bottom: 1px solid var(--border-color);
+    /*border-top: 1px solid var(--border-color);*/
+    display: flex;
+    align-items: center;
+    font-family: sans-serif, Futura;
+    justify-content: space-between;
+    padding: 5px 10px;
+    color: var(--secondary-text-color);
+}
+
+.settings-column__settings-item:after {
+    content: '>';
+    font-weight: 700;
+    padding-top: 5px;
+    width: 25px;
+    height: 25px;
+}
