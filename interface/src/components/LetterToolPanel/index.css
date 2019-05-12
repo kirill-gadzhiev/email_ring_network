@@ -4,7 +4,7 @@
 
     display: flex;
     flex-basis: var(--bar-height);
-    flex-direction: row;
+    flex-direction: row-reverse;
     flex-shrink: 0;
     align-items: center;
 }
@@ -12,8 +12,6 @@
 .tool-panel__delete-button {
     border-radius: 5px;
     border: 1px solid var(--btn-color);
-    /*background: var(--search-input-background);*/
-    color: var(--btn-color);
     height: 30px;
     width: 100px;
     margin: 0 10px;
@@ -25,4 +23,15 @@
 
     cursor: pointer;
     user-select: none;
+    transition: background-color 0.2s ease-out;
+}
+
+.tool-panel__delete-button {
+    color: #fff;
+    background: var(--btn-color);
+}
+
+.tool-panel__delete-button:active {
+    color: var(--btn-color);
+    background: #fff;
 }

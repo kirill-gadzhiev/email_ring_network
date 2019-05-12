@@ -1,0 +1,5 @@
+.user-list {
+    overflow-y: scroll;
+    flex-grow: 1;
+    width: var(--left-column-max-width);
+}

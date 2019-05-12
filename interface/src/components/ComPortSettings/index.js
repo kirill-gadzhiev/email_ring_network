@@ -1,59 +1,102 @@
-import React from "react";
-import ReactDOM from "react-dom";
+import React, { useState } from "react";
 import "./index.css";
+import {useComPortsContext} from "../../useContexts/useComPortsContext.js";
+import {setComPortsSettings} from "../../CoreInteraction/InteractionService.js";
 
+const renderSpeed = speed => `${speed}бит/с`;
+const compareSpeed = (x, y) => Number(x) === Number(y);
+const compareName = (a, b) => String(a) === String(b);
 
-import { BrowserRouter as Router, Route, Switch } from 'react-router-dom';
+const renderItems = (items, currentItem, compareItem, renderItem = item => item) => {
+    return items.map( item => {
+            return <option selected={compareItem(item, currentItem)}
+                    value={item}>
+                {renderItem(item)}
+            </option>
+        }
+    );
+};
 
-class ComPortSettings extends React.Component {
-    portsSelect() {
-        return this.props.portsList.map( port => <option value={port}>{port}</option>);
-    }
+const ComPortSettings = (props) => {
 
-    portsSpeeds() {
-        return this.props.speeds.map( speed => <option value={speed}>{speed} бит/с</option>)
-    }
+    const { speeds } = props;
 
-    render() {
-        return (
-            <div className={"right-column__detailed-settings"}>
-                <div className="detailed-settings__com-ports">
-                    <form id="com-ports-form">
+    const { ports, inCom, outCom, setInCom, setOutCom } = useComPortsContext();
 
-                        <h2 className="com-ports__title">Выберите COM-порты</h2>
+    const [ state, setState ] = useState({
+        inCom,
+        outCom,
+    });
 
-                        <div>
-                            <label className="com-ports__label" htmlFor="in-com">Входящий порт</label>
-                            <select id="in-com">
-                                {this.portsSelect()}
-                            </select>
-                            <select className="com-ports__speed" id="in-com-speed">
-                                {this.portsSpeeds()}
-                            </select>
-                        </div>
+    const handleInputChange = (event) => {
+        const { dataset, value } = event.currentTarget;
+        const { field, port } = dataset;
 
-                        <div>
-                            <label className="com-ports__label" htmlFor="out-com">Исходящий порт</label>
-                            <select id="out-com">
-                                {this.portsSelect()}
-                            </select>
-                            <select className="com-ports__speed" id="out-com-speed">
-                                {this.portsSpeeds()}
-                            </select>
-                        </div>
+        const changedPort = {
+            ...state[port],
+            [field]: value,
+        };
 
-                        <div className="com-ports__apply-button">Применить</div>
+        setState({
+            ...state,
+            [port]: changedPort,
+        });
+    };
 
-                    </form>
-                </div>
+    const apply = () => {
+        const { inCom, outCom } = state;
+        setInCom(inCom);
+        setOutCom(outCom);
+
+        inCom.speed = +inCom.speed;
+        outCom.speed = +outCom.speed;
+        setComPortsSettings({ports, inCom, outCom});
+    };
+
+    return (
+        <div className={"right-column__detailed-settings"}>
+            <div className="detailed-settings__com-ports">
+                <form id="com-ports-form">
+
+                    <h2 className="com-ports__title">Выберите COM-порты</h2>
+
+                    <div>
+                        <label className="com-ports__label" htmlFor="InComName">Входящий порт</label>
+                        <select id={"InComName"}
+                                data-port="inCom" data-field="name"
+                                onChange={handleInputChange}>
+                            {renderItems(ports, state.inCom.name, compareName)}
+                        </select>
+                        <select className="com-ports__speed"
+                                data-port="inCom" data-field="speed"
+                                onChange={handleInputChange}>
+                            {renderItems(speeds, state.inCom.speed, compareSpeed, renderSpeed)}
+                        </select>
+                    </div>
+
+                    <div>
+                        <label className="com-ports__label" htmlFor="OutComName">Исходящий порт</label>
+                        <select id={"OutComName"}
+                                data-port="outCom" data-field="name"
+                                onChange={handleInputChange}>
+                            {renderItems(ports, state.outCom.name, compareName)}
+                        </select>
+                        <select className="com-ports__speed"
+                                data-port="outCom" data-field="speed"
+                                onChange={handleInputChange}>
+                            {renderItems(speeds, state.outCom.speed, compareSpeed, renderSpeed)}
+                        </select>
+                    </div>
+                    
+                    <a className="com-ports__apply-button" onClick={apply}>Применить</a>
+                </form>
             </div>
-        );
-    }
-}
+        </div>
+    );
+};
 
 
 ComPortSettings.defaultProps = {
-    portsList: [],
     speeds: [50, 75, 110, 150, 300, 600, 1200, 2400, 4800, 9600, 19200, 38400, 57600, 115200].reverse(),
 };
 

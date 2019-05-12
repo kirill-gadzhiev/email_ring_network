@@ -9,6 +9,8 @@ import (
 
 type DataLinkLayer struct {
 	phys PhysicalLayer
+	state map[byte]string
+	currentAddress byte
 }
 
 func (d *DataLinkLayer) logicalConnect(mode *serial.Mode, portName string) (error) {
@@ -41,11 +43,13 @@ func (d *DataLinkLayer) sendLinkFrameByMaster() error {
 		return err
 	}
 
+	d.currentAddress = MIN_ADDRESS
+
 	return d.sendFrame(*frame)
 }
 
 // возвращает адрес текущего компа
-func (d *DataLinkLayer) sendLinkFrameBySlave(receivedFrame Frame, email string) (byte, error) {
+func (d *DataLinkLayer) sendLinkFrameBySlave(receivedFrame Frame, email string) error {
 	// тут должен быть функционал для слейв компа
 
 	//strData := string(receivedFrame.data)
@@ -61,10 +65,12 @@ func (d *DataLinkLayer) sendLinkFrameBySlave(receivedFrame Frame, email string) 
 	frame, err := createFrame(LINK_FRAME, BROADCAST, currentAddress, newData)
 	if err != nil {
 		log.Fatal(err)
-		return 0, err
+		return err
 	}
 
-	return currentAddress, d.sendFrame(*frame)
+	d.currentAddress = currentAddress
+
+	return d.sendFrame(*frame)
 }
 
 func (d *DataLinkLayer) sendAckFrame(to byte, from byte) error {
@@ -108,7 +114,12 @@ func (d *DataLinkLayer) sendFrame(frame Frame) error {
 
 // эту функцию будем пихать в горутину наверн и она будет писать в канал если что-то пришло
 // в основном потоке считываем и действуем в зависимости от этого
-func (d *DataLinkLayer) listen() error {
+func (d *DataLinkLayer) listen(out chan<- []byte) error {
+	err := d.phys.port.SetDTR(true) // DTR на этой стороне <=> DSR на другой
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
 	buff := make([]byte, 100)
 	for {
 		// Reads up to 100 bytes
@@ -121,7 +132,7 @@ func (d *DataLinkLayer) listen() error {
 			fmt.Println("\nEOF")
 			break
 		} else {
-			// chan <- buff[:n]
+			out <- buff[:n]
 			fmt.Printf("%v", string(buff[:n]))
 		}
 	}

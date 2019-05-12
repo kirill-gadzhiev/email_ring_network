@@ -1,0 +1,10 @@
+.right-column__information {
+    height: 100%;
+    display: flex;
+    flex-direction: column;
+    align-items: center;
+
+    font-family: Futura, sans-serif;
+    color: var(--primary-text-color);
+    justify-content: center;
+}

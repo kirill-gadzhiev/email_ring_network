@@ -1,0 +1,56 @@
+.auth {
+    display: flex;
+    flex-direction: column;
+    justify-content: center;
+    align-items: center;
+    width: 100vw;
+    height: 100vh;
+}
+
+.auth__header {
+    font-family: Futura, sans-serif;
+    font-size: 20px;
+    color: var(--primary-text-color); /* #ff6666 - для повторяющегося имейла */
+    width: 280px;
+    text-align: center;
+}
+
+.auth__email-input {
+    border: 1px solid var(--border-color);
+    padding: 10px;
+    font-size: 18px;
+    color: var(--primary-text-color);
+    border-radius: 5px;
+}
+
+.auth__email-input:focus, .auth__email-input:hover {
+    outline: none;
+    box-shadow: none;
+}
+
+.auth__submit-button {
+    border-radius: 5px;
+    border: 1px solid var(--btn-color);
+    height: 30px;
+    width: 100px;
+    margin: 10px;
+    box-sizing: border-box;
+    padding-top: 3px;
+    text-align: center;
+    vertical-align: center;
+    display: block;
+
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease-out;
+}
+
+.auth__submit-button {
+    color: #fff;
+    background: var(--btn-color);
+}
+
+.auth__submit-button:active {
+    color: var(--btn-color);
+    background: #fff;
+}

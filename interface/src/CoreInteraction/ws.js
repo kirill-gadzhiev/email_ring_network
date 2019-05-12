@@ -1,0 +1,14 @@
+export const ws = new WebSocket("ws://localhost:" + global.backendPort + "/web/app/events");
+
+export const EVENT_TYPES = {
+    MESSAGE_RECEIVED:          "MESSAGE_RECEIVED_GOTRON_EVENT",
+    MESSAGE_SEND:              "MESSAGE_SEND_GOTRON_EVENT",
+    SET_USER:                  "SET_USER_GOTRON_EVENT",
+    SET_USER_RESPONSE:         "SET_USER_RESPONSE_GOTRON_EVENT",
+
+    NETWORK_STATUS:            "NETWORK_STATUS_GOTRON_EVENT",
+    INTERFACE_READY:           "INTERFACE_READY_GOTRON_EVENT",
+
+    COM_PORTS_SETTINGS:        "COM_PORTS_SETTINGS_GOTRON_EVENT",
+    COM_PORTS_SETTINGS_CHANGE: "COM_PORTS_SETTINGS_CHANGE_GOTRON_EVENT",
+};

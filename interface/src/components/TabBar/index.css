@@ -20,6 +20,11 @@
     color: var(--not-active-tab-color);
 }
 
+.tab-bar__users-tab {
+    /*background-image: url("./cog-solid.svg");*/
+    color: var(--not-active-tab-color);
+}
+
 .tab-bar__tab--checked {
     color: var(--active-tab-color);
 }

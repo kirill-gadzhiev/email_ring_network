@@ -1,18 +1,36 @@
 import React from "react";
-import ReactDOM from "react-dom";
-import "./index.css"
+import "./index.css";
+import { Redirect } from 'react-router';
+import { useState } from 'react';
 
-class LetterToolPanel extends React.Component {
-    render() {
-        return (
-            <div className="letter-reading__tool-panel">
-                <div className="tool-panel__delete-button">Удалить</div>
-            </div>
-        );
+import { useLettersContext } from "../../useContexts/useLettersContext.js";
+
+
+const LetterToolPanel = (props) => {
+    const { deleteLetter } = useLettersContext();
+
+    const [state, setState] = useState({
+        redirect: false,
+    });
+
+    const onDeletePressed = () => {
+        deleteLetter(props.id);
+        setState({ redirect: true });
+    };
+
+    if (state.redirect) {
+        return <Redirect to={'/'}/>;
     }
-}
+
+    return (
+        <div className="letter-reading__tool-panel">
+            <a onClick={() => onDeletePressed()} className="tool-panel__delete-button">Удалить</a>
+        </div>
+    );
+};
 
 LetterToolPanel.defaultProps = {
+    id: null,
 };
 
 export default LetterToolPanel;

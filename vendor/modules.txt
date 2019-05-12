@@ -1,0 +1,21 @@
+# github.com/Benchkram/errz v0.0.0-20180825145403-619d291cb54f
+github.com/Benchkram/errz
+# github.com/Equanox/gotron v0.2.23
+github.com/Equanox/gotron
+github.com/Equanox/gotron/internal/file
+github.com/Equanox/gotron/internal/runner
+# github.com/gorilla/websocket v1.4.0
+github.com/gorilla/websocket
+# github.com/mikepb/go-serial v0.0.0-20180731022703-d5134cecf05a
+github.com/mikepb/go-serial
+# github.com/otiai10/copy v1.0.1
+github.com/otiai10/copy
+# github.com/pkg/errors v0.8.0
+github.com/pkg/errors
+# github.com/rs/zerolog v1.11.0
+github.com/rs/zerolog
+github.com/rs/zerolog/log
+github.com/rs/zerolog/internal/cbor
+github.com/rs/zerolog/internal/json
+# github.com/satori/go.uuid v1.2.1-0.20181028125025-b2ce2384e17b
+github.com/satori/go.uuid

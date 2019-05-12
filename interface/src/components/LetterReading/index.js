@@ -2,36 +2,43 @@ import React from "react";
 import ReactDOM from "react-dom";
 import "./index.css"
 import LetterToolPanel from "../LetterToolPanel";
+import {useLettersContext} from "../../useContexts/useLettersContext.js";
+import {useUserContext} from "../../useContexts/useUserContext.js";
 
-class LetterReading extends React.Component {
-    render() {
-        return (
-            <div className={"right-column__letter-reading"}>
-                <div className="letter-reading__content">
-                    <div className="letter-reading__info">
-                        <div className={"letter-reading__author"}>
-                            <div className="letter-reading__author__label">
-                                От кого:
-                            </div>
-                            <div className="letter-reading__author__name">
-                                {this.props.author}
-                            </div>
+const LetterReading = (props) => {
+    const { getLetterByID } = useLettersContext();
+
+    const id = props.match.params.id;
+    const { author, message, responder } = getLetterByID(id);
+
+    const { email: userEmail } = useUserContext();
+    const isCurrentUserAuthor = userEmail === author;
+    const authorLabel = isCurrentUserAuthor ? "Кому:" : "От кого:";
+    const authorValue = isCurrentUserAuthor ? responder : author;
+
+    return (
+        <div className={"right-column__letter-reading"}>
+            <div className="letter-reading__content">
+                <div className="letter-reading__info">
+                    <div className={"letter-reading__author"}>
+                        <div className="letter-reading__author__label">
+                            {authorLabel}
+                        </div>
+                        <div className="letter-reading__author__name">
+                            {authorValue}
                         </div>
                     </div>
-                    <div className={"letter-reading__message"}>
-                        {this.props.message}
-                    </div>
                 </div>
-                <LetterToolPanel/>
+                <div className={"letter-reading__message"}>
+                    {message}
+                </div>
             </div>
-        );
-    }
-}
+            <LetterToolPanel id={id}/>
+        </div>
+    );
+};
 
 LetterReading.defaultProps = {
-    author: 'Unknown',
-    responder: 'Unknown',
-    message: 'Empty',
 };
 
 export default LetterReading;

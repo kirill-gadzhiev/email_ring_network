@@ -1,0 +1,28 @@
+.user-list__user-mini {
+    width: var(--left-column-max-width);
+
+    height: 60px;
+    padding: 10px;
+    border-bottom: 1px solid var(--border-color);
+    border-top: none;
+    font-family: sans-serif, Futura;
+    transition: background 0.2s ease-out;
+    box-sizing: border-box;
+    display: flex;
+}
+
+.user-list__user-mini:hover {
+    background: #FCF6BD;
+}
+
+.user-mini__email {
+    margin: auto;
+
+    color: var(--primary-text-color);
+    font-weight: 700;
+
+    text-overflow: ellipsis;
+    white-space: nowrap;
+    overflow: hidden;
+}
+

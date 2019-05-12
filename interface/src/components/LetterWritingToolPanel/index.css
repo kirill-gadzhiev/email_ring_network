@@ -1,0 +1,57 @@
+.letter-writing__tool-panel {
+    width: 100%;
+    border-top: 1px solid var(--border-color);
+
+    display: flex;
+    flex-basis: var(--bar-height);
+    flex-direction: row-reverse;
+    flex-shrink: 0;
+    align-items: center;
+    justify-content: space-between;
+}
+
+.tool-panel__send-button, .tool-panel__cancel-button {
+    border-radius: 5px;
+    border: 1px solid var(--btn-color);
+    height: 30px;
+    width: 100px;
+    margin: 0 10px;
+    box-sizing: border-box;
+    padding-top: 5px;
+    text-align: center;
+    vertical-align: center;
+    display: block;
+
+    cursor: pointer;
+    user-select: none;
+    transition: background-color 0.2s ease-out;
+}
+
+.tool-panel__send-button {
+    color: #fff;
+    background: var(--btn-color);
+}
+
+.tool-panel__send-button:active {
+    color: var(--btn-color);
+    background: #fff;
+}
+
+.tool-panel__cancel-button {
+    color: var(--btn-color);
+    background: #fff;
+}
+
+.tool-panel__cancel-button a {
+    color: var(--btn-color);
+}
+
+.tool-panel__cancel-button:active {
+    color: #fff;
+    background: var(--btn-color);
+}
+
+.tool-panel__cancel-button a:active {
+    color: #fff;
+}
+
