@@ -113,25 +113,13 @@ func (p *PhysicalLayer) send(data []byte) (int, error) {
 	}
 }
 
-func (p *PhysicalLayer) listen() ([]byte, error) {
-	buff := make([]byte, 100)
-	var data []byte
-	for {
-		// Reads up to 100 bytes
-		n, err := p.port.Read(buff)
-		if err != nil {
-			log.Fatal(err)
-			return nil, err
-		}
-		if n == 0 {
-			fmt.Println("\nEOF")
-			break
-		} else {
-			data = append(data, buff[:n]...)
-			fmt.Printf("%v", string(buff[:n]))
-		}
+func (p *PhysicalLayer) setReadyTolisten() error {
+	err := p.port.SetRTS(true)
+	if err != nil {
+		log.Fatal(err)
+		return err
 	}
-	return data, nil
+	return nil
 }
 
 func printPorts() {

@@ -34,6 +34,16 @@ func (d *DataLinkLayer) sendInfoFrame(data []byte, to byte, from byte) error {
 	return d.sendFrame(*frame)
 }
 
+func (d *DataLinkLayer) sendPingFrame(from byte) error {
+	frame, err := createFrame(INFO_FRAME, BROADCAST, from, nil)
+	if err != nil {
+		log.Fatal(err)
+		return err
+	}
+
+	return d.sendFrame(*frame)
+}
+
 func (d *DataLinkLayer) sendLinkFrameByMaster() error {
 	// тут должен быть функционал для мастер компа (инициатора)
 

@@ -100,7 +100,9 @@ func testReciever() {
 		StopBits: serial.OneStopBit,
 	}
 
-	port, err := serial.Open("COM2", mode)
+
+
+	port, err := serial.Open("COM1", mode)
 	if err != nil {
 		log.Fatal(err)
 		return

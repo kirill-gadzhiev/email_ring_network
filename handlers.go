@@ -101,6 +101,8 @@ func slave(backPortMode *serial.Mode, backPortName string, frontPortMode *serial
 			fmt.Println(err)
 		}
 
+		fmt.Println("ПОЛУЧИЛИ ФРЕЙМ:", frame)
+
 		err = frontPort.handleFrame(*frame)
 		if err != nil {
 			fmt.Println(err)
@@ -197,6 +199,14 @@ func (d *DataLinkLayer) handleRetFrame(receivedFrame Frame) error {
 	// 1. находим (как?) последний кадр
 	// можно хранить массив последних кадров в DataLinkLayer
 	// 2. отправляем еще раз
+	return nil
+}
+
+func (d *DataLinkLayer) handlePingFrame(receivedFrame Frame) error {
+	// 1. выставляем что соединение есть
+	// 2. отправляем новый ping frame
+	// 3. если не приходит за PING_TIMEOUT то выставляем отсутвие соединения
+	// возвращаем
 	return nil
 }
 
