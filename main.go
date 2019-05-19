@@ -39,7 +39,8 @@ func testSender(data []byte) {
 
 }
 
-func main1() {
+func main() {
+	init_interface()
 	fmt.Println("Program starts MASTER")
 	//fmt.Println("Program starts SLAVE")
 	printPorts()

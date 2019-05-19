@@ -101,7 +101,7 @@ func sendComPortsSettingsEvent(settings ComPortsSettings, window *gotron.Browser
 }
 
 
-func main() {
+func init_interface() {
 	// Create a new browser window instance
 	window, err := gotron.New("interface/build")
 	if err != nil {
