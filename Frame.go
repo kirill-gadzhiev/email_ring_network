@@ -2,6 +2,7 @@ package main
 
 import (
 	"errors"
+	"fmt"
 	"log"
 )
 
@@ -26,7 +27,7 @@ const (
 	RET_FRAME    = 0x85  // для запроса на повторение отправки последнего кадра
 
 	STATE_FRAME  = 0x86  // для передачи сведений о всех клиентах сети
-	PING_FRAME   = 0x87
+	PING_FRAME   = 0x87  // для регулярной проверки работоспособности сети
 )
 
 const (
@@ -51,10 +52,12 @@ type Frame struct {
 func createFrame(frameType byte, to byte, from byte, data []byte) (*Frame, error) {
 	switch frameType {
 	case INFO_FRAME: fallthrough
+	case STATE_FRAME: fallthrough
 	case LINK_FRAME:
 		return &Frame{frameType, to, from, byte(len(data)), data}, nil
 	case UPLINK_FRAME: fallthrough
 	case ACK_FRAME: fallthrough
+	case PING_FRAME: fallthrough
 	case RET_FRAME:
 		return &Frame{frameType, to, from, 0, nil}, nil
 	default:
@@ -87,12 +90,15 @@ func parseBytesToFrame(bytes []byte) (*Frame, error) {
 
 	switch bytes[3] {
 	case INFO_FRAME: fallthrough
+	case STATE_FRAME: fallthrough
 	case LINK_FRAME:
 		n := len(bytes)
+		fmt.Println("len: ", n, " bytes: ", bytes)
 		data := bytes[5:n-1]
 		return &Frame{frameType, to, from, byte(len(data)), data}, nil
 	case UPLINK_FRAME: fallthrough
 	case ACK_FRAME: fallthrough
+	case PING_FRAME: fallthrough
 	case RET_FRAME:
 		return &Frame{frameType, to, from, 0, nil}, nil
 	default:
@@ -128,6 +134,8 @@ func validateBytes(bytes []byte) error {
 	case LINK_FRAME: fallthrough
 	case UPLINK_FRAME: fallthrough
 	case ACK_FRAME: fallthrough
+	case STATE_FRAME: fallthrough
+	case PING_FRAME: fallthrough
 	case RET_FRAME:
 		return nil
 	default:

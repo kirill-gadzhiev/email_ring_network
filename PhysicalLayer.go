@@ -20,13 +20,15 @@ const (
 )
 
 func (p *PhysicalLayer) connect() error {
-	port, err := serial.Open("COM1", p.mode)
+	port, err := serial.Open(p.portName, p.mode)
 	if err != nil {
 		log.Fatal(err)
 		return err
 	}
 
-	err = port.SetDTR(true)
+	p.port = port
+
+	err = p.port.SetDTR(true)
 	if err != nil {
 		log.Fatal(err)
 		return err
@@ -50,9 +52,8 @@ func (p *PhysicalLayer) connect() error {
 
 	select {
 	case res := <-c1:
-		if res == nil {
-			p.port = port
-		} else {
+		if res != nil {
+			p.port = nil
 			return res
 		}
 	case <-time.After(CONNECT_TIMEOUT):
@@ -60,7 +61,6 @@ func (p *PhysicalLayer) connect() error {
 		return errors.New("timeout error: DSR didnt get in 2 second")
 	}
 
-	p.port = port
 	return nil
 }
 

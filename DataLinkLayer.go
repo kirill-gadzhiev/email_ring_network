@@ -44,10 +44,12 @@ func (d *DataLinkLayer) sendPingFrame(from byte) error {
 	return d.sendFrame(*frame)
 }
 
-func (d *DataLinkLayer) sendLinkFrameByMaster() error {
+func (d *DataLinkLayer) sendLinkFrameByMaster(email string) error {
 	// тут должен быть функционал для мастер компа (инициатора)
 
-	frame, err := createFrame(LINK_FRAME, BROADCAST, MIN_ADDRESS, nil)
+	data := []byte(string(MIN_ADDRESS) + " " + email + "\n")
+
+	frame, err := createFrame(LINK_FRAME, BROADCAST, MIN_ADDRESS, data)
 	if err != nil {
 		log.Fatal(err)
 		return err
@@ -68,7 +70,7 @@ func (d *DataLinkLayer) sendLinkFrameBySlave(receivedFrame Frame, email string) 
 	//lastData := strings.Split(last, " ")
 	//lastAddress := lastData[0][0]  // адрес однобайтовый, значит больше одного символа в строке занимать не может
 	currentAddress := receivedFrame.from + 1
-	currentData := []byte(string(currentAddress) + " " + email)
+	currentData := []byte(string(currentAddress) + " " + email + "\n")
 
 	newData := append(receivedFrame.data, currentData...)
 
@@ -125,28 +127,15 @@ func (d *DataLinkLayer) sendFrame(frame Frame) error {
 // эту функцию будем пихать в горутину наверн и она будет писать в канал если что-то пришло
 // в основном потоке считываем и действуем в зависимости от этого
 func (d *DataLinkLayer) listen(out chan<- []byte) error {
-	err := d.phys.port.SetDTR(true) // DTR на этой стороне <=> DSR на другой
-	if err != nil {
-		log.Fatal(err)
-		return err
-	}
-	buff := make([]byte, 100)
 	for {
 		// Reads up to 100 bytes
+		buff := make([]byte, 100)
 		n, err := d.phys.port.Read(buff)
 		if err != nil {
-			log.Fatal(err)
-			return err
+			continue
 		}
-		if n == 0 {
-			fmt.Println("\nEOF")
-			break
-		} else {
-			out <- buff[:n]
-			fmt.Printf("%v", string(buff[:n]))
-		}
+		out <- buff[:n]
 	}
-	return nil
 }
 
 func (d *DataLinkLayer) sendStateFrame(state []byte, from byte) error {
@@ -159,14 +148,19 @@ func (d *DataLinkLayer) sendStateFrame(state []byte, from byte) error {
 	return d.sendFrame(*frame)
 }
 
-func (d *DataLinkLayer) getStateFromFrame(receivedFrame Frame) (clients map[byte]string) {
+func (d *DataLinkLayer) getStateFromFrame(receivedFrame Frame) (map[byte]string) {
 	strData := string(receivedFrame.data)
-	clientsData := strings.Split(strData, "\n")
+	dataLen := len(strData)
+	trimmedData := strData[:dataLen-1]
+	clientsData := strings.Split(trimmedData, "\n")
+
+	clients := map[byte]string{}
 
 	for _, client := range clientsData {
 		clientInfo := strings.Split(client, " ")
 
 		// адрес однобайтовый, значит больше одного символа в строке занимать не может
+		fmt.Println("client: ", client, " clientInfo: ", clientInfo)
 		clientAddress := byte(clientInfo[0][0])
 		clientEmail := clientInfo[1]
 
