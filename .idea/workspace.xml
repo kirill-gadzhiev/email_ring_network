@@ -2,7 +2,54 @@
 <project version="4">
   <component name="ChangeListManager">
     <list default="true" id="3f79cd57-329b-4029-8b76-c7b5e9afef52" name="Default" comment="">
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/assets/asset-manifest.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/assets/index.html" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/precache-manifest.84ba7ce406b508dc869bf57ebf4a8ab2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/assets/service-worker.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/css/main.f8eded6e.chunk.css" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/css/main.f8eded6e.chunk.css.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/2.4b3e8438.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/2.4b3e8438.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/main.622852da.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/main.622852da.chunk.js.map" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Makefile" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/validation/src/validation.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/validation/src/validation.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/bufferutil.node" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/bufferutil.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/bufferutil/src/bufferutil.o" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/bufferutil/src/bufferutil.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/validation/src/validation.o" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/validation/src/validation.o" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/validation.node" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/validation.node" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/bufferutil.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/bufferutil.target.mk" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/config.gypi" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/validation.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/validation.target.mk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/DataLinkLayer.go" beforeDir="false" afterPath="$PROJECT_DIR$/DataLinkLayer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/PhysicalLayer.go" beforeDir="false" afterPath="$PROJECT_DIR$/PhysicalLayer.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.go" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface/package-lock.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface/package.json" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogList/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogList/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogMini/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogMini/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/LeftColumn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LeftColumn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterReading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterReading/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/RightColumn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/RightColumn/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/UserMini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/UserMini/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/UsersList/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/UsersList/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/components/UsersList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/UsersList/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/contexts/networkContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/contexts/networkContext.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/index.css" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/stories/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/stories/index.js" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_interface.go" afterDir="false" />
     </list>
@@ -19,43 +66,71 @@
     <session id="1547786580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="2" />
+          <entry key="project.closed" value="5" />
+          <entry key="project.open.time.10" value="1" />
+          <entry key="project.open.time.11" value="1" />
+          <entry key="project.open.time.13" value="1" />
           <entry key="project.open.time.14" value="1" />
+          <entry key="project.open.time.23" value="1" />
           <entry key="project.open.time.3" value="1" />
           <entry key="project.open.time.7" value="1" />
           <entry key="project.open.time.8" value="1" />
-          <entry key="project.opened" value="4" />
+          <entry key="project.opened" value="8" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.open">
         <counts>
-          <entry key="go" value="19" />
+          <entry key="css" value="7" />
+          <entry key="go" value="45" />
+          <entry key="js" value="67" />
+          <entry key="md" value="1" />
+          <entry key="svg" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.open">
         <counts>
-          <entry key="Go" value="19" />
+          <entry key="CSS" value="7" />
+          <entry key="Go" value="45" />
+          <entry key="JavaScript" value="67" />
+          <entry key="PLAIN_TEXT" value="1" />
+          <entry key="SVG" value="4" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
-          <entry key="go" value="7995" />
+          <entry key="css" value="407" />
+          <entry key="go" value="11644" />
+          <entry key="js" value="4559" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
-          <entry key="Go" value="7995" />
+          <entry key="CSS" value="407" />
+          <entry key="Go" value="11644" />
+          <entry key="JavaScript" value="4559" />
         </counts>
       </usages-collector>
     </session>
   </component>
   <component name="FileEditorManager">
     <leaf SIDE_TABS_SIZE_LIMIT_KEY="300">
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="435">
+              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+              <folding>
+                <element signature="e#0#51#0" expanded="true" />
+              </folding>
+            </state>
+          </provider>
+        </entry>
+      </file>
       <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main_interface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="171">
-              <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+            <state relative-caret-position="301">
+              <caret line="185" selection-start-line="185" selection-end-line="185" />
               <folding>
                 <element signature="e#14#77#0" expanded="true" />
               </folding>
@@ -64,49 +139,34 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron.go">
+        <entry file="file://$PROJECT_DIR$/handlers.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="1176">
-              <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
+            <state relative-caret-position="470">
+              <caret line="360" column="44" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/Frame.go">
+        <entry file="file://$PROJECT_DIR$/interface/src/App.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="808">
-              <caret line="125" selection-start-line="125" selection-end-line="125" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/DataLinkLayer.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="248">
-              <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/FrameParser.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="557">
-              <caret line="84" selection-start-line="84" selection-end-line="84" />
+            <state relative-caret-position="252">
+              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
               <folding>
-                <element signature="e#14#50#0" expanded="true" />
+                <element signature="e#0#26#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/handlers.go">
+        <entry file="file://$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-3706">
-              <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+            <state relative-caret-position="80">
+              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+              <folding>
+                <element signature="e#0#39#0" expanded="true" />
+              </folding>
             </state>
           </provider>
         </entry>
@@ -114,8 +174,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="149">
-              <caret line="40" selection-start-line="40" selection-end-line="40" />
+            <state relative-caret-position="494">
+              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
               <folding>
                 <element signature="e#14#61#0" expanded="true" />
               </folding>
@@ -124,31 +184,37 @@
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useNetworkContext.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="63">
+              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="600">
+              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/ws.js">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="210">
+              <caret line="10" column="59" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="59" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhysicalLayer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="406">
-              <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
-              <folding>
-                <element signature="e#14#79#0" expanded="true" />
-              </folding>
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="214">
-              <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial_unix.go">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-59">
-              <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+            <state relative-caret-position="-488">
+              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
             </state>
           </provider>
         </entry>
@@ -159,8 +225,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="JavaScript File" />
         <option value="Go File" />
+        <option value="JavaScript File" />
       </list>
     </option>
   </component>
@@ -170,6 +236,7 @@
       <find>switch</find>
       <find>bus.on</find>
       <find>import bus</find>
+      <find>interface2core</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -182,31 +249,13 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" />
-        <option value="$PROJECT_DIR$/interface/src/app-context.js" />
-        <option value="$PROJECT_DIR$/interface/src/useComPortsContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/lettersContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/ComPortSettings/index.css" />
-        <option value="$PROJECT_DIR$/interface/src/components/RightColumn/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/DialogList/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/useLettersContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LetterWritingToolPanel/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css" />
-        <option value="$PROJECT_DIR$/interface/src/useUserContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js" />
         <option value="$PROJECT_DIR$/interface/src/components/LetterWritingToolPanel/index.css" />
         <option value="$PROJECT_DIR$/interface/src/userContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/UsersList/index.css" />
-        <option value="$PROJECT_DIR$/interface/src/components/TabBar/svg.js" />
         <option value="$PROJECT_DIR$/interface/src/components/Auth/index.css" />
         <option value="$PROJECT_DIR$/interface/src/components/TabBar/index.css" />
         <option value="$PROJECT_DIR$/interface/src/components/TabBar/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/UserMini/index.js" />
         <option value="$PROJECT_DIR$/interface/src/components/UserMini/index.css" />
         <option value="$PROJECT_DIR$/interface/src/AppContextProvider.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/UsersList/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LeftColumn/index.js" />
         <option value="$PROJECT_DIR$/interface/src/components/StatusBar/index.js" />
         <option value="$PROJECT_DIR$/interface/src/components/InformationRightColumn/index.css" />
         <option value="$PROJECT_DIR$/interface/src/components/InformationRightColumn/index.js" />
@@ -214,25 +263,43 @@
         <option value="$PROJECT_DIR$/interface/src/useContexts/useUserContext.js" />
         <option value="$PROJECT_DIR$/interface/src/stories/LetterSampleData.js" />
         <option value="$PROJECT_DIR$/interface/src/stories/DialogListSampleData.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LetterReading/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/contexts/networkContext.js" />
         <option value="$PROJECT_DIR$/interface/src/useContexts/useNetworkContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/App.js" />
         <option value="$PROJECT_DIR$/interface/src/components/Auth/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" />
         <option value="$PROJECT_DIR$/interface/src/useContexts/useComPortsContext.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" />
         <option value="$PROJECT_DIR$/interface/src/components/ComPortSettings/index.js" />
         <option value="$PROJECT_DIR$/FrameParser.go" />
-        <option value="$PROJECT_DIR$/PhysicalLayer.go" />
-        <option value="$PROJECT_DIR$/DataLinkLayer.go" />
+        <option value="$PROJECT_DIR$/interface/src/index.css" />
+        <option value="$PROJECT_DIR$/interface/src/components/DialogList/index.css" />
+        <option value="$PROJECT_DIR$/interface/src/components/UsersList/index.css" />
         <option value="$PROJECT_DIR$/Frame.go" />
+        <option value="$PROJECT_DIR$/../go.bug.st/serial.v1/serial_windows.go" />
+        <option value="$PROJECT_DIR$/PhysicalLayer.go" />
+        <option value="$PROJECT_DIR$/interface/src/components/UsersList/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/contexts/networkContext.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/LeftColumn/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/LetterReading/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/RightColumn/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css" />
+        <option value="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/App.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/UserMini/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/TabBar/svg.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/DialogMini/svg.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/DialogMini/index.css" />
+        <option value="$PROJECT_DIR$/interface/src/stories/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" />
+        <option value="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/DialogList/index.js" />
+        <option value="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" />
+        <option value="$PROJECT_DIR$/DataLinkLayer.go" />
+        <option value="$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron.go" />
+        <option value="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" />
+        <option value="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" />
+        <option value="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" />
         <option value="$PROJECT_DIR$/handlers.go" />
-        <option value="$PROJECT_DIR$/main_interface.go" />
         <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/main_interface.go" />
       </list>
     </option>
   </component>
@@ -250,6 +317,12 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/.gotron/package.json" />
       <path value="$PROJECT_DIR$/interface/package.json" />
+      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/js/package.json" />
+      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/package.json" />
+      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/react/package.json" />
+      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/typescript/package.json" />
+      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/vue/package.json" />
+      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/templates/app/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -271,6 +344,93 @@
               <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
               <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
             </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name=".storybook" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DialogList" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="DialogMini" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="InteractonStarter" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LetterWriting" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="components" type="462c0819:PsiDirectoryNode" />
+              <item name="LetterWritingToolPanel" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="CoreInteraction" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="email_ring_network" type="462c0819:PsiDirectoryNode" />
+              <item name="interface" type="462c0819:PsiDirectoryNode" />
+              <item name="src" type="462c0819:PsiDirectoryNode" />
+              <item name="useContexts" type="462c0819:PsiDirectoryNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+            </path>
+            <path>
+              <item name="email_ring_network" type="b2602c69:ProjectViewProjectNode" />
+              <item name="External Libraries" type="cb654da1:ExternalLibrariesNode" />
+              <item name="GOPATH &lt;email_ring_network&gt;" type="20ee2d1f:SyntheticLibraryElementNode" />
+            </path>
           </expand>
           <select />
         </subPane>
@@ -280,6 +440,7 @@
   </component>
   <component name="PropertiesComponent">
     <property name="DefaultGoTemplateProperty" value="Go File" />
+    <property name="SearchEverywhereHistoryKey" value="DialogListSampleData&#9;FILE&#9;file:///Users/Kirill/go/src/email_ring_network/interface/src/stories/DialogListSampleData.js" />
     <property name="WebServerToolWindowFactoryState" value="false" />
     <property name="go.gopath.indexing.explicitly.defined" value="true" />
     <property name="go.sdk.automatically.set" value="true" />
@@ -337,11 +498,11 @@
     <frame x="0" y="0" width="1280" height="800" extended-state="0" />
     <editor active="true" />
     <layout>
-      <window_info content_ui="combo" id="Project" order="0" visible="true" weight="0.26494345" />
+      <window_info active="true" content_ui="combo" id="Project" order="0" visible="true" weight="0.27705976" />
       <window_info id="Structure" order="1" side_tool="true" weight="0.25" />
       <window_info id="Favorites" order="2" side_tool="true" />
       <window_info anchor="bottom" id="Message" order="0" />
-      <window_info anchor="bottom" id="Find" order="1" weight="0.329235" />
+      <window_info anchor="bottom" id="Find" order="1" weight="0.32876712" />
       <window_info anchor="bottom" id="Run" order="2" />
       <window_info anchor="bottom" id="Debug" order="3" weight="0.4" />
       <window_info anchor="bottom" id="Cvs" order="4" weight="0.25" />
@@ -372,219 +533,31 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LeftColumn/index.css">
+    <entry file="file://$PROJECT_DIR$/Frame.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="1" selection-start-line="12" selection-start-column="1" selection-end-line="12" selection-end-column="1" />
+        <state relative-caret-position="1638">
+          <caret line="82" selection-start-line="82" selection-end-line="82" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js">
+    <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="156">
-          <caret line="13" column="7" selection-start-line="13" selection-start-column="7" selection-end-line="13" selection-end-column="7" />
+        <state relative-caret-position="1197">
+          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWritingToolPanel/index.css">
+    <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial_unix.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1134">
-          <caret line="54" column="16" selection-start-line="54" selection-start-column="16" selection-end-line="54" selection-end-column="16" />
+        <state relative-caret-position="2793">
+          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/Equanox/gotron/browser_window_instance_methods.go">
+    <entry file="file://$PROJECT_DIR$/../golang.org/x/sys/unix/zsyscall_darwin_amd64.1_11.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="235">
-          <caret line="784" column="26" selection-start-line="784" selection-start-column="26" selection-end-line="784" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/index.js">
-      <provider selected="true" editor-type-id="text-editor" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="331">
-          <caret line="24" column="2" selection-start-line="24" selection-start-column="2" selection-end-line="24" selection-end-column="2" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/ComPortSettings/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="7" selection-end-column="37" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/TabBar/address-book-solid.svg">
-      <provider selected="true" editor-type-id="images" />
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/TabBar/svg.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="386">
-          <caret line="20" column="51" selection-start-line="20" selection-start-column="51" selection-end-line="20" selection-end-column="51" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/TabBar/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="336">
-          <caret line="16" selection-start-line="16" selection-end-line="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/Auth/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="12" column="77" selection-start-line="12" selection-start-column="77" selection-end-line="12" selection-end-column="77" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/UsersList/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="1" selection-start-line="4" selection-start-column="1" selection-end-line="4" selection-end-column="1" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/UserMini/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" column="17" selection-start-line="18" selection-start-column="17" selection-end-line="18" selection-end-column="17" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/UserMini/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="4" column="31" selection-start-line="4" selection-start-column="31" selection-end-line="4" selection-end-column="31" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/contexts/lettersContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="5" column="16" selection-start-line="5" selection-start-column="16" selection-end-line="5" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/InformationRightColumn/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="30" selection-start-line="5" selection-start-column="30" selection-end-line="5" selection-end-column="30" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/InformationRightColumn/index.css">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="168">
-          <caret line="8" column="28" selection-start-line="8" selection-start-column="28" selection-end-line="8" selection-end-column="28" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/StatusBar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="273">
-          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LeftColumn/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="317">
-          <caret line="30" column="19" selection-start-line="30" selection-start-column="19" selection-end-line="30" selection-end-column="19" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/UsersList/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="378">
-          <caret line="18" selection-start-line="18" selection-end-line="18" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/TabBar/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="90">
-          <caret line="10" column="49" selection-start-line="10" selection-start-column="49" selection-end-line="10" selection-end-column="49" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/stories/DialogListSampleData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" column="25" selection-start-line="6" selection-start-column="25" selection-end-line="6" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/stories/LetterSampleData.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="231">
-          <caret line="11" selection-start-line="11" selection-end-line="11" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterReading/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="84">
-          <caret line="9" selection-start-line="9" selection-end-line="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/contexts/userContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="3" column="14" selection-start-line="3" selection-start-column="14" selection-end-line="3" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/AppContextProvider.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret column="9" selection-start-column="9" selection-end-column="9" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/App.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="252">
-          <caret line="12" column="34" selection-start-line="12" selection-start-column="34" selection-end-line="12" selection-end-column="34" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useUserContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="147">
-          <caret line="9" column="13" selection-start-line="9" selection-start-column="13" selection-end-line="9" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/Auth/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="105">
-          <caret line="5" column="60" selection-start-line="5" selection-start-column="60" selection-end-line="5" selection-end-column="60" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useNetworkContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="126">
-          <caret line="6" selection-start-line="6" selection-end-line="6" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWritingToolPanel/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="222">
-          <caret line="24" column="36" selection-start-line="24" selection-start-column="36" selection-end-line="24" selection-end-column="36" />
+        <state relative-caret-position="23667">
+          <caret line="1130" column="5" selection-start-line="1130" selection-start-column="5" selection-end-line="1130" selection-end-column="5" />
         </state>
       </provider>
     </entry>
@@ -595,92 +568,208 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/contexts/comPortsContext.js">
+    <entry file="file://$PROJECT_DIR$/interface/src/components/StatusBar/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="247">
-          <caret line="16" column="13" selection-start-line="16" selection-start-column="13" selection-end-line="16" selection-end-column="13" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/ws.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" selection-start-line="10" selection-end-line="10" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="525">
-          <caret line="25" selection-start-line="25" selection-end-line="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useComPortsContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="63">
-          <caret line="4" column="46" selection-start-line="4" selection-start-column="46" selection-end-line="4" selection-end-column="46" />
+        <state relative-caret-position="-8">
+          <caret line="13" column="47" selection-start-line="13" selection-start-column="47" selection-end-line="13" selection-end-column="47" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/src/contexts/networkContext.js">
       <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="147">
+          <caret line="7" column="28" selection-start-line="7" selection-start-column="28" selection-end-line="7" selection-end-column="28" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/stories/DialogListSampleData.js">
+      <provider selected="true" editor-type-id="text-editor">
         <state>
-          <caret column="49" selection-start-column="49" selection-end-column="49" />
+          <caret column="6" selection-start-column="6" selection-end-column="6" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js">
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LeftColumn/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="58">
-          <caret line="15" column="11" selection-start-line="15" selection-start-column="11" selection-end-line="15" selection-end-column="11" />
+        <state>
+          <caret column="12" selection-start-column="12" selection-end-column="12" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js">
+    <entry file="file://$PROJECT_DIR$/interface/src/components/RightColumn/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="400">
-          <caret line="24" column="47" selection-start-line="24" selection-start-column="47" selection-end-line="24" selection-end-column="47" />
+        <state relative-caret-position="252">
+          <caret line="12" column="64" selection-start-line="12" selection-start-column="64" selection-end-line="12" selection-end-column="64" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/.storybook/addons.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="478">
+          <caret line="40" column="21" selection-start-line="40" selection-start-column="21" selection-end-line="40" selection-end-column="21" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/src/components/ComPortSettings/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="510">
+        <state relative-caret-position="1333">
           <caret line="89" column="20" selection-start-line="89" selection-start-column="20" selection-end-line="89" selection-end-column="20" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial.go">
+    <entry file="file://$PROJECT_DIR$/interface/.storybook/config.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/arrow.svg" />
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/up.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/down.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/UsersList/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="214">
-          <caret line="57" column="18" selection-start-line="57" selection-start-column="18" selection-end-line="57" selection-end-column="18" />
+        <state relative-caret-position="168">
+          <caret line="12" column="23" selection-start-line="12" selection-start-column="23" selection-end-line="12" selection-end-column="23" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial_unix.go">
+    <entry file="file://$PROJECT_DIR$/interface/src/components/UserMini/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-59">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
+        <state relative-caret-position="336">
+          <caret line="16" column="21" lean-forward="true" selection-start-line="16" selection-start-column="21" selection-end-line="16" selection-end-column="21" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/FrameParser.go">
+    <entry file="file://$PROJECT_DIR$/interface/src/components/TabBar/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="557">
-          <caret line="84" selection-start-line="84" selection-end-line="84" />
+        <state relative-caret-position="211">
+          <caret line="25" column="48" lean-forward="true" selection-start-line="25" selection-start-column="48" selection-end-line="25" selection-end-column="48" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/TabBar/svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="420">
+          <caret line="20" column="37" selection-start-line="20" selection-start-column="37" selection-end-line="20" selection-end-column="37" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterReading/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-17">
+          <caret line="6" column="34" lean-forward="true" selection-start-line="6" selection-start-column="34" selection-end-line="6" selection-end-column="34" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/checked.svg">
+      <provider selected="true" editor-type-id="images" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret column="26" selection-start-column="26" selection-end-column="26" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useUserContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="5" column="45" selection-start-line="5" selection-start-column="45" selection-end-line="5" selection-end-column="45" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/contexts/userContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="3" selection-start-line="3" selection-end-line="4" selection-end-column="21" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/index.css">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="945">
+          <caret line="45" column="19" selection-start-line="45" selection-start-column="19" selection-end-line="45" selection-end-column="19" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/svg.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="126">
+          <caret line="6" column="33" selection-start-line="6" selection-start-column="33" selection-end-line="6" selection-end-column="33" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/stories/LetterSampleData.js">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/stories/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="9" column="29" selection-start-line="9" selection-start-column="29" selection-end-line="9" selection-end-column="29" />
           <folding>
-            <element signature="e#14#50#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+            <marker date="1558852756161" expanded="true" signature="1364:1534" ph="..." />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/PhysicalLayer.go">
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.css">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="406">
-          <caret line="21" column="26" selection-start-line="21" selection-start-column="26" selection-end-line="21" selection-end-column="26" />
+        <state relative-caret-position="1227">
+          <caret line="66" column="23" selection-start-line="66" selection-start-column="23" selection-end-line="66" selection-end-column="23" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWritingToolPanel/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="13" column="14" selection-start-line="13" selection-start-column="14" selection-end-line="13" selection-end-column="14" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/README 2.md">
+      <provider selected="true" editor-type-id="text-editor" />
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogList/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="26" selection-start-line="10" selection-start-column="26" selection-end-line="10" selection-end-column="26" />
           <folding>
-            <element signature="e#14#79#0" expanded="true" />
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/DialogMini/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="227">
+          <caret line="12" column="61" selection-start-line="12" selection-start-column="61" selection-end-line="12" selection-end-column="61" />
+          <folding>
+            <element signature="e#0#40#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/contexts/lettersContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="189">
+          <caret line="9" column="21" selection-start-line="9" selection-start-column="21" selection-end-line="9" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#38#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state>
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
+          <folding>
+            <element signature="e#0#52#0" expanded="true" />
           </folding>
         </state>
       </provider>
@@ -688,45 +777,113 @@
     <entry file="file://$PROJECT_DIR$/DataLinkLayer.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="248">
-          <caret line="141" column="26" selection-start-line="141" selection-start-column="26" selection-end-line="141" selection-end-column="26" />
+          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/Frame.go">
+    <entry file="file:///usr/local/go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="808">
-          <caret line="125" selection-start-line="125" selection-end-line="125" />
+        <state relative-caret-position="235">
+          <caret line="2420" column="5" selection-start-line="2420" selection-start-column="5" selection-end-line="2420" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhysicalLayer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="-488">
+          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="3511">
+          <caret line="173" selection-start-line="173" selection-end-line="173" />
+          <folding>
+            <element signature="e#91#281#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/App.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="252">
+          <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+          <folding>
+            <element signature="e#0#26#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useNetworkContext.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="63">
+          <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="600">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/ws.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="210">
+          <caret line="10" column="59" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="59" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron_methods.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="351">
+          <caret line="204" column="56" selection-start-line="204" selection-start-column="56" selection-end-line="204" selection-end-column="56" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="435">
+          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/handlers.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-3706">
-          <caret line="125" column="35" selection-start-line="125" selection-start-column="35" selection-end-line="125" selection-end-column="35" />
+        <state relative-caret-position="470">
+          <caret line="360" column="44" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="80">
+          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+          <folding>
+            <element signature="e#0#39#0" expanded="true" />
+          </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="149">
-          <caret line="40" selection-start-line="40" selection-end-line="40" />
+        <state relative-caret-position="494">
+          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
           <folding>
             <element signature="e#14#61#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1176">
-          <caret line="66" column="5" selection-start-line="66" selection-start-column="5" selection-end-line="66" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_interface.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="171">
-          <caret line="105" column="28" selection-start-line="105" selection-start-column="28" selection-end-line="105" selection-end-column="28" />
+        <state relative-caret-position="301">
+          <caret line="185" selection-start-line="185" selection-end-line="185" />
           <folding>
             <element signature="e#14#77#0" expanded="true" />
           </folding>

@@ -2,7 +2,7 @@ import React from "react";
 import "./index.css";
 
 
-const DialogMini = (props) => {
+const UserMini = (props) => {
     const { email } = props;
     return (
         <div className={"user-list__user-mini"}>
@@ -13,8 +13,8 @@ const DialogMini = (props) => {
     );
 };
 
-DialogMini.defaultProps = {
+UserMini.defaultProps = {
     email: 'Unknown',
 };
 
-export default DialogMini;
+export default UserMini;

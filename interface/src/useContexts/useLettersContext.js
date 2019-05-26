@@ -20,17 +20,21 @@ export const useLettersContext = () => {
 
     const addLetter = (letter) => {
         const { letters } = state;
+        console.log(letters);
         letters.push(letter);
+        console.log(letters);
         setState(state => ({...state, letters}));
         findLetters(findParam.substring);
     };
 
     function deleteLetter(deleteId) {
         const { letters: oldLetters, searchedLetters: oldSearchedLetters } = state;
+        console.log(oldLetters);
         const letters = oldLetters.filter(letter => letter.id !== deleteId);
         const searchedLetters = oldSearchedLetters.filter(letter => letter.id !== deleteId);
 
         setState(state => ({...state, letters, searchedLetters}));
+        console.log(letters);
     }
 
     function findLetters(substring) {
@@ -58,6 +62,31 @@ export const useLettersContext = () => {
         return letter ? letter : empty;
     }
 
+    function setLetterChecked(id) {
+        const { letters } = state;
+        const pos = letters.findIndex(letter => letter.id === id);
+        if (pos === -1) {
+            return;
+        }
+
+        letters[pos].checked = true;
+
+        setState(state => ({
+            ...state,
+            letters,
+        }));
+    }
+
+    function sendCheckedSubEvent(id) {
+        const letter = getLetterByID(id);
+        const letterCopy = {...letter};
+        const { author, responder } = letterCopy;
+        letterCopy.checkedSubEvent = true;
+        letterCopy.author = responder;
+        letterCopy.responder = author;
+        sendNewLetter(letterCopy);
+    }
+
     return {
         ...state,
         sendLetter,
@@ -66,6 +95,8 @@ export const useLettersContext = () => {
         findLetters,
         setLetters,
         getLetterByID,
+        setLetterChecked,
+        sendCheckedSubEvent,
     }
 
 };

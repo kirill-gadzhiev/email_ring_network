@@ -1,0 +1,2115 @@
+Program starts SLAVE
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49787
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '2ceed72f-83ab-40e9-8e23-3758d68af95d' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  174  bytes:  [255 2 1 129 168 123 34 105 100 34 58 34 49 53 53 56 56 54 49 49 56 50 55 53 51 50 54 56 46 52 56 51 56 55 50 55 54 57 53 56 56 56 54 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 119 101 114 34 44 34 100 97 116 101 34 58 49 53 53 56 56 54 49 49 56 50 55 53 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558861182753268.48387276958886slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"wer","date":1558861182753,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc0000317e0 {1558861182753268.48387276958886slave@mail.ru master@mail.ru slave@mail.ru wer 1558861182753 false}}
+before mutex
+ mutex.lock
+mesage event {0xc0000317e0 {1558861182753268.48387276958886slave@mail.ru master@mail.ru slave@mail.ru wer 1558861182753 false}}
+Letter message:  wer
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+Letter message:  sosi
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  174  bytes:  [255 2 1 129 168 123 34 105 100 34 58 34 49 53 53 56 56 54 49 50 50 50 49 53 53 54 57 49 46 48 57 48 49 51 51 52 50 50 48 49 53 50 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 115 111 115 105 34 44 34 100 97 116 101 34 58 49 53 53 56 56 54 49 50 50 50 49 53 53 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558861222155691.0901334220152master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"sosi","date":1558861222155,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc0000319b0 {1558861222155691.0901334220152master@mail.ru master@mail.ru slave@mail.ru sosi 1558861222155 true}}
+before mutex
+ mutex.lock
+mesage event {0xc0000319b0 {1558861222155691.0901334220152master@mail.ru master@mail.ru slave@mail.ru sosi 1558861222155 true}}
+Connection Error: Error: write after end
+Websockt Connection Closed
+Program starts SLAVE
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  15  bytes:  [255 127 1 130 9 1 32 109 97 115 116 101 114 10 255]
+Data:   master
+
+LINK_FRAME
+client:   master  clientInfo:  [ master]
+
+Main.js
+49689
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'f8838e2b-02dd-43fa-af28-925f276a3ebf' }
+User email:  slave
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 134 17 1 32 109 97 115 116 101 114 10 2 32 115 108 97 118 101 10 255]
+Data:   master
+ slave
+
+STATE_FRAME
+client:   master  clientInfo:  [ master]
+client:   slave  clientInfo:  [ slave]
+now will send state frame
+before mutex
+ mutex.lock
+Letter message:  j
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+Connection Error: Error: write after end
+Websockt Connection Closed
+Program starts SLAVE
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  15  bytes:  [255 127 1 130 9 1 32 109 97 115 116 101 114 10 255]
+Data:   master
+
+LINK_FRAME
+client:   master  clientInfo:  [ master]
+
+Main.js
+49718
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '2d20e141-8851-42d6-b743-cdbc1f7e9b02' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  31  bytes:  [255 127 1 134 25 1 32 109 97 115 116 101 114 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master
+ slave@mail.ru
+
+STATE_FRAME
+client:   master  clientInfo:  [ master]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+Program starts SLAVE
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  13  bytes:  [255 127 1 130 7 1 32 107 109 107 107 10 255]
+Data:   kmkk
+
+LINK_FRAME
+client:   kmkk  clientInfo:  [ kmkk]
+
+Main.js
+49723
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '4c9c52d5-32d6-4a2e-b475-cfa59578bb4c' }
+User email:  yyyyy
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {yyyyy}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  21  bytes:  [255 127 1 134 15 1 32 107 109 107 107 10 2 32 121 121 121 121 121 10 255]
+Data:   kmkk
+ yyyyy
+
+STATE_FRAME
+client:   kmkk  clientInfo:  [ kmkk]
+client:   yyyyy  clientInfo:  [ yyyyy]
+now will send state frame
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+Program starts SLAVE
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  15  bytes:  [255 127 1 130 9 1 32 109 97 115 116 101 114 10 255]
+Data:   master
+
+LINK_FRAME
+client:   master  clientInfo:  [ master]
+
+Main.js
+49732
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'e25ef091-1397-4a02-946f-dfec96170e3e' }
+User email:  slave
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 134 17 1 32 109 97 115 116 101 114 10 2 32 115 108 97 118 101 10 255]
+Data:   master
+ slave
+
+STATE_FRAME
+client:   master  clientInfo:  [ master]
+client:   slave  clientInfo:  [ slave]
+now will send state frame
+before mutex
+ mutex.lock
+Connection Error: Error: read ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49763
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '00c690fe-e08b-4ebd-856d-6e39e1535b0c' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+Letter message:  kek
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 52 52 48 55 51 56 56 54 46 54 55 49 51 55 56 55 53 54 50 54 48 51 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 52 52 48 55 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558872044073886.6713787562603master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek","date":1558872044073,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc0000318d0 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+before mutex
+ mutex.lock
+mesage event {0xc0000318d0 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+inside listen for
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 52 52 48 55 51 56 56 54 46 54 55 49 51 55 56 55 53 54 50 54 48 51 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 52 52 48 55 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558872044073886.6713787562603master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek","date":1558872044073,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031980 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+before mutex
+ mutex.lock
+mesage event {0xc000031980 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  191  bytes:  [255 2 1 129 185 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 53 55 57 54 48 53 52 56 46 52 52 56 57 48 52 54 56 56 55 48 53 53 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 49 50 51 49 50 51 49 50 51 49 50 51 49 50 51 49 50 49 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 53 55 57 54 48 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558872057960548.4489046887055slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek123123123123123121","date":1558872057960,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc0000319d0 {1558872057960548.4489046887055slave@mail.ru master@mail.ru slave@mail.ru kek123123123123123121 1558872057960 false}}
+before mutex
+ mutex.lock
+mesage event {0xc0000319d0 {1558872057960548.4489046887055slave@mail.ru master@mail.ru slave@mail.ru kek123123123123123121 1558872057960 false}}
+Letter message:  kek123123123123123121
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+Letter message:  kek123123123123123121
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 52 52 48 55 51 56 56 54 46 54 55 49 51 55 56 55 53 54 50 54 48 51 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 52 52 48 55 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558872044073886.6713787562603master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek","date":1558872044073,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031af0 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+before mutex
+ mutex.lock
+mesage event {0xc000031af0 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 52 52 48 55 51 56 56 54 46 54 55 49 51 55 56 55 53 54 50 54 48 51 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 52 52 48 55 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558872044073886.6713787562603master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek","date":1558872044073,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031b40 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+before mutex
+ mutex.lock
+mesage event {0xc000031b40 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 52 52 48 55 51 56 56 54 46 54 55 49 51 55 56 55 53 54 50 54 48 51 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 52 52 48 55 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558872044073886.6713787562603master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek","date":1558872044073,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031b90 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+before mutex
+ mutex.lock
+mesage event {0xc000031b90 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 50 48 52 52 48 55 51 56 56 54 46 54 55 49 51 55 56 55 53 54 50 54 48 51 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 50 48 52 52 48 55 51 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558872044073886.6713787562603master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"kek","date":1558872044073,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031be0 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+before mutex
+ mutex.lock
+mesage event {0xc000031be0 {1558872044073886.6713787562603master@mail.ru master@mail.ru slave@mail.ru kek 1558872044073 true}}
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+Connection Error: Error: read ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+inside listen for
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49779
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '97c28c93-48c9-4f5c-8c4d-17f7380041ea' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  170  bytes:  [255 2 1 129 164 123 34 105 100 34 58 34 49 53 53 56 56 55 52 52 48 49 52 51 55 56 50 57 46 50 56 49 50 57 48 53 55 53 55 55 52 55 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 52 52 48 49 52 51 55 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558874401437829.2812905757747slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"","date":1558874401437,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031800 {1558874401437829.2812905757747slave@mail.ru master@mail.ru slave@mail.ru  1558874401437 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031800 {1558874401437829.2812905757747slave@mail.ru master@mail.ru slave@mail.ru  1558874401437 false}}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+Connection Error: Error: read ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+inside listen for
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+inside listen for
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49785
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '4818ce56-1d37-4a2b-a4a9-6520aba014d3' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  174  bytes:  [255 2 1 129 168 123 34 105 100 34 58 34 49 53 53 56 56 55 52 53 50 48 55 50 50 56 52 48 46 57 50 50 57 57 55 53 56 57 57 51 53 52 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 112 114 105 118 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 52 53 50 48 55 50 50 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558874520722840.9229975899354slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"priv","date":1558874520722,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031800 {1558874520722840.9229975899354slave@mail.ru master@mail.ru slave@mail.ru priv 1558874520722 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031800 {1558874520722840.9229975899354slave@mail.ru master@mail.ru slave@mail.ru priv 1558874520722 false}}
+Letter message:  priv
+before mutex
+ mutex.lock
+Connection Error: Error: read ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49791
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '70a9f867-234b-490c-b1ab-7d834f35d3ec' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  176  bytes:  [255 2 1 129 170 123 34 105 100 34 58 34 49 53 53 56 56 55 53 49 52 51 48 55 56 55 49 46 54 55 50 55 48 48 52 55 48 50 50 54 52 53 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 112 114 105 118 101 116 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 53 49 52 51 48 55 56 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"155887514307871.67270047022645slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"privet","date":1558875143078,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031800 {155887514307871.67270047022645slave@mail.ru master@mail.ru slave@mail.ru privet 1558875143078 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031800 {155887514307871.67270047022645slave@mail.ru master@mail.ru slave@mail.ru privet 1558875143078 false}}
+Letter message:  privet
+before mutex
+ mutex.lock
+Connection Error: Error: read ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49796
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '7c17def8-54ff-4d77-951c-3f463ccb2454' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  174  bytes:  [255 2 1 129 168 123 34 105 100 34 58 34 49 53 53 56 56 55 53 52 50 48 54 55 57 50 57 51 46 51 54 52 48 53 55 50 53 54 51 57 55 56 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 108 108 107 108 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 53 52 50 55 50 51 55 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558875420679293.3640572563978slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"llkl","date":1558875427237,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031800 {1558875420679293.3640572563978slave@mail.ru master@mail.ru slave@mail.ru llkl 1558875427237 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031800 {1558875420679293.3640572563978slave@mail.ru master@mail.ru slave@mail.ru llkl 1558875427237 false}}
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+Connection Error: Error: write after end
+before mutex
+Websockt Connection Closed
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+BOY
+TERMINATE
+before mutex
+ mutex.lock
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49802
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '786a653a-5372-444e-958e-623bd62d4ca5' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+len:  173  bytes:  [255 2 1 129 167 123 34 105 100 34 58 34 49 53 53 56 56 55 54 49 56 50 48 50 56 57 50 50 46 51 49 54 56 50 54 48 55 53 52 51 56 52 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 119 116 102 34 44 34 100 97 116 101 34 58 49 53 53 56 56 55 54 49 56 52 54 55 54 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558876182028922.3168260754384slave@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"wtf","date":1558876184676,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031800 {1558876182028922.3168260754384slave@mail.ru master@mail.ru slave@mail.ru wtf 1558876184676 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031800 {1558876182028922.3168260754384slave@mail.ru master@mail.ru slave@mail.ru wtf 1558876184676 false}}

@@ -2,7 +2,7 @@ import React, {useEffect, useState} from 'react';
 
 const defaultContext = {
     availableUsers: [],
-    connection: true,
+    connection: false,
 };
 
 export const NetworkContext = React.createContext(defaultContext);

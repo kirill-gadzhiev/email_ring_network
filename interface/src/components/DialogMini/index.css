@@ -8,6 +8,7 @@
     font-family: sans-serif, Futura;
     transition: background 0.2s ease-out;
     box-sizing: border-box;
+    display: flex;
 }
 
 .dialog-list__dialog-mini:hover {
@@ -18,6 +19,9 @@
     background: #E7BB41;
 }
 
+.dialog-mini__main {
+    flex-grow: 1;
+}
 
 .dialog-mini__author {
     margin: 0 0 5px 0;
@@ -39,3 +43,24 @@
     overflow: hidden;
 }
 
+.dialog-mini__icon-in, .dialog-mini__icon-out {
+    padding-right: 5px;
+}
+
+.dialog-mini__icon-in {
+    color: green;
+}
+
+.dialog-mini__icon-out {
+    color: crimson;
+}
+
+.dialog-mini__icon--checked {
+    display: flex;
+    flex-direction: column-reverse;
+    color: var(--active-tab-color);
+}
+
+.dialog-mini__icon--unchecked {
+    opacity: 0;
+}

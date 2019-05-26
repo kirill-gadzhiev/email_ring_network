@@ -67,7 +67,11 @@
     padding: 20px 40px;
     width: 100%;
     flex-grow: 1;
-    overflow-y: scroll;
+    /*overflow-y: scroll;*/
+    resize: none;
+    font-family: sans-serif, Futura;
+    border: none;
+    font-size: 16px;
 }
 
 .letter-writing__message, .letter-writing__message:focus {

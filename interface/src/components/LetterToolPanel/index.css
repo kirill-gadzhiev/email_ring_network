@@ -9,7 +9,7 @@
     align-items: center;
 }
 
-.tool-panel__delete-button {
+.tool-panel__delete-button, .tool-panel__forward-button, .tool-panel__reply-button {
     border-radius: 5px;
     border: 1px solid var(--btn-color);
     height: 30px;
@@ -34,4 +34,14 @@
 .tool-panel__delete-button:active {
     color: var(--btn-color);
     background: #fff;
+}
+
+.tool-panel__forward-button, .tool-panel__reply-button {
+    color: var(--btn-color);
+    background: #fff;
+}
+
+.tool-panel__forward-button:active, .tool-panel__reply-button:active {
+    color: #fff;
+    background: var(--btn-color);
 }

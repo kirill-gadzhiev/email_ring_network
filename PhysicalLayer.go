@@ -5,6 +5,7 @@ import (
 	"fmt"
 	"go.bug.st/serial.v1"
 	"log"
+	"sync"
 	"time"
 )
 
@@ -22,7 +23,6 @@ const (
 func (p *PhysicalLayer) connect() error {
 	port, err := serial.Open(p.portName, p.mode)
 	if err != nil {
-		log.Fatal(err)
 		return err
 	}
 
@@ -74,6 +74,11 @@ func (p *PhysicalLayer) disconnect() error {
 }
 
 func (p *PhysicalLayer) send(data []byte) (int, error) {
+	fmt.Println("before mutex")
+	var mutex = &sync.Mutex{}
+	mutex.Lock()
+	fmt.Println(" mutex.lock")
+	defer mutex.Unlock()
 	err := p.port.SetRTS(true)
 	if err != nil {
 		log.Fatal(err)

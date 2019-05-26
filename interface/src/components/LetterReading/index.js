@@ -1,9 +1,8 @@
 import React from "react";
-import ReactDOM from "react-dom";
 import "./index.css"
 import LetterToolPanel from "../LetterToolPanel";
-import {useLettersContext} from "../../useContexts/useLettersContext.js";
-import {useUserContext} from "../../useContexts/useUserContext.js";
+import { useLettersContext } from "../../useContexts/useLettersContext.js";
+import { useUserContext } from "../../useContexts/useUserContext.js";
 
 const LetterReading = (props) => {
     const { getLetterByID } = useLettersContext();

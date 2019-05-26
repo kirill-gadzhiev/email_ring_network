@@ -27,6 +27,12 @@ export const setComPortsSettings = comPortsSettings => {
     }));
 };
 
+export const sendCloseWindow = () => {
+    ws.send(JSON.stringify({
+        "event": EVENT_TYPES.CLOSE_WINDOW,
+    }));
+}
+
 
 class EventBus {
     constructor() {
@@ -59,7 +65,7 @@ ws.onmessage = (message) => {
     const data = JSON.parse(message.data);
     if (!data.event) return;
 
-    console.log('RECEIVED: ', data.event);
+    console.log('RECEIVED: ', data.event, "data: ", data);
     bus.emit(data.event, data);
 };
 ws.onopen = () => sendInterfaceReady();

@@ -1,6 +1,7 @@
 package main
 
 import (
+	"encoding/json"
 	"fmt"
 	"go.bug.st/serial.v1"
 	"log"
@@ -23,6 +24,7 @@ func (d *DataLinkLayer) logicalDisconnect() error {
 	err := d.phys.disconnect()
 	return err
 }
+
 
 func (d *DataLinkLayer) sendInfoFrame(data []byte, to byte, from byte) error {
 	frame, err := createFrame(INFO_FRAME, to, from, data)
@@ -47,16 +49,21 @@ func (d *DataLinkLayer) sendPingFrame(from byte) error {
 func (d *DataLinkLayer) sendLinkFrameByMaster(email string) error {
 	// тут должен быть функционал для мастер компа (инициатора)
 
+	fmt.Println("1")
 	data := []byte(string(MIN_ADDRESS) + " " + email + "\n")
 
+	fmt.Println("2")
 	frame, err := createFrame(LINK_FRAME, BROADCAST, MIN_ADDRESS, data)
 	if err != nil {
+		fmt.Println(err)
 		log.Fatal(err)
 		return err
 	}
+	fmt.Println("3")
 
 	d.currentAddress = MIN_ADDRESS
 
+	fmt.Println("4")
 	return d.sendFrame(*frame)
 }
 
@@ -124,15 +131,26 @@ func (d *DataLinkLayer) sendFrame(frame Frame) error {
 	return nil
 }
 
+func (d *DataLinkLayer) terminate() error {
+	fmt.Println("TERMINATE")
+	err := d.sendUplinkFrame(BROADCAST, d.currentAddress)
+	if err != nil {
+		return err
+	}
+	return nil
+}
+
 // эту функцию будем пихать в горутину наверн и она будет писать в канал если что-то пришло
 // в основном потоке считываем и действуем в зависимости от этого
 func (d *DataLinkLayer) listen(out chan<- []byte) error {
 	for {
+		fmt.Println("inside listen for")
 		// Reads up to 100 bytes
 		buff := make([]byte, 100)
 		n, err := d.phys.port.Read(buff)
 		if err != nil {
 			continue
+			return err
 		}
 		out <- buff[:n]
 	}
@@ -146,6 +164,21 @@ func (d *DataLinkLayer) sendStateFrame(state []byte, from byte) error {
 	}
 
 	return d.sendFrame(*frame)
+}
+
+func (d *DataLinkLayer) sendLetter(letter Letter) {
+	var to byte
+	for address, email := range d.state {
+		if email == letter.Responder {
+			to = address
+		}
+	}
+	data, err := json.Marshal(letter)
+	if err != nil {
+		fmt.Println("letter marshalling error")
+		return
+	}
+	d.sendInfoFrame(data, to, d.currentAddress)
 }
 
 func (d *DataLinkLayer) getStateFromFrame(receivedFrame Frame) (map[byte]string) {

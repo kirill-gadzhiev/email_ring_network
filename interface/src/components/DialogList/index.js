@@ -1,5 +1,4 @@
-import React, { useEffect } from "react";
-import ReactDOM from "react-dom";
+import React from "react";
 import "./index.css";
 
 import DialogMini from '../DialogMini/index.js'
@@ -9,7 +8,7 @@ const DialogList = () => {
 
     const { searchedLetters } = useLettersContext();
 
-    const cmp = (a,b) => b.date - a.date; // обратный порядок писем (новее => выше)
+    const cmp = (a,b) => a.date - b.date; // обратный порядок писем (новее => выше)
 
     return (
         <div className={"dialog-list"}>

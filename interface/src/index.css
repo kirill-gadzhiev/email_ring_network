@@ -12,7 +12,7 @@ code {
 }
 
 :root {
-  --active-tab-color: #108adc;/*#3E78B2;*/
+  --active-tab-color: #108adc; /*#3E78B2;*/
   --not-active-tab-color: #9c9c9c;
 
   --border-color: #eaeaea;/*#aaa;*/
@@ -28,7 +28,8 @@ code {
   --search-input-text-color: #a0a0a0;
 
   --columns-height: 100%;
-  --left-column-max-width: 300px;
+  --left-column-max-width: 300px;  /* for windows 320, for normal people 300px */
+  --left-column-inner-elem-width: 320px;
 
   --bar-height: 50px;
 

@@ -4,13 +4,13 @@ import "./index.css";
 import UserMini from '../UserMini';
 import { useNetworkContext } from "../../useContexts/useNetworkContext.js";
 
-const UsersList = (props) => {
+const UsersList = () => {
 
     const { availableUsers } = useNetworkContext();
 
     return (
         <div className={"user-list"}>
-            {availableUsers.map( user => <UserMini key={user.email} {...user}/>)}
+            {availableUsers.map(user => <UserMini key={user.email} {...user}/>)}
         </div>
     );
 };

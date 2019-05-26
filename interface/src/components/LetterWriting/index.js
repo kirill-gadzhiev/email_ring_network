@@ -1,4 +1,4 @@
-import React, { useState } from "react";
+import React, { useState, useEffect } from "react";
 import "./index.css"
 import LetterWritingToolPanel from "../LetterWritingToolPanel";
 import { useLettersContext } from "../../useContexts/useLettersContext.js";
@@ -6,6 +6,9 @@ import { Redirect } from 'react-router';
 import { useUserContext } from "../../useContexts/useUserContext.js";
 import { useNetworkContext } from "../../useContexts/useNetworkContext.js";
 import InformationRightColumn from "../InformationRightColumn";
+import queryString from "query-string";
+import { withRouter, Link } from 'react-router-dom'
+
 
 const generateID = responder => {
     const currentTimestamp = Date.now();
@@ -16,27 +19,47 @@ const generateID = responder => {
 };
 
 const LetterWriting = (props) => {
-    const [state, setState] = useState({
+    const { sendLetter, getLetterByID } = useLettersContext();
+
+    const defaultState = {
         responder: '',
         message: '',
-        redirect: false,
-    });
+        redirect: null,
+    };
 
-    const { sendLetter } = useLettersContext();
+    const [state, setState] = useState(defaultState);
+
+    useEffect( () => {
+        const { search } = props.location;
+        const { action, id } = queryString.parse(search);
+        if (action && id) {
+            const originFieldName = action === 'reply' ? 'author' : 'message';
+            const newFieldName = action === 'reply' ? 'responder' : 'message';
+            const originLetter = getLetterByID(id);
+            console.log(originLetter[originFieldName]);
+            setState(state => ({
+                ...state,
+                [newFieldName]: originLetter[originFieldName],
+            }));
+        }
+    }, []);
+
     const { email: userEmail } = useUserContext();
-    const { connection } = useNetworkContext();
+    const { connection, availableUsers } = useNetworkContext();
 
     const onSendPressed = () => {
         const { responder, message } = state;
-        if (!props.availableUsers.includes(responder)) {
-            console.log('Такого пользователя нет в сети!');
+        const availableUserEmails = availableUsers.map( user => user.email);
+        if (!availableUserEmails.includes(responder)) {
+            console.log('Такого пользователя нет в сети!', availableUsers, responder);
             return;
         }
 
         const id = generateID(responder);
         const author = userEmail;
         const date = Date.now();
-        const letter = {id, responder, message, author, date};
+        const checkedSubEvent = false;
+        const letter = {id, responder, message, author, date, checkedSubEvent};
 
         sendLetter(letter);
         setState({
@@ -48,7 +71,7 @@ const LetterWriting = (props) => {
     const onInputChange = (event) => {
         const input = event.currentTarget;
         const { name } = input.dataset;
-        const value = name === 'message' ? input.innerText : input.value;
+        const value = input.value;
         setState({
             ...state,
             [name]: value,
@@ -63,6 +86,8 @@ const LetterWriting = (props) => {
         return <InformationRightColumn message={"Отсутствует соединение с сетью"}/>;
     }
 
+
+
     return (
         <div className={"right-column__letter-writing"}>
             <div className="letter-writing__content">
@@ -73,15 +98,19 @@ const LetterWriting = (props) => {
                         </div>
                         <input id={"new-letter-to-input"}
                                onChange={onInputChange}
+                               value={state.responder}
                                data-name="responder"
                                className={"letter-writing__to__input"}
-                               type="text" />
+                               type="text"
+                        />
                     </div>
                 </label>
-                <div onInput={onInputChange}
+                <textarea onChange={onInputChange}
                      data-name="message"
                      className={"letter-writing__message"}
-                     contentEditable={true} />
+                     value={state.message}
+                     type="text"
+                />
             </div>
             <LetterWritingToolPanel onSendPressed={onSendPressed} />
         </div>
@@ -89,7 +118,6 @@ const LetterWriting = (props) => {
 };
 
 LetterWriting.defaultProps = {
-    availableUsers: [],
 };
 
-export default LetterWriting;
+export default withRouter( props => <LetterWriting {...props} />);
