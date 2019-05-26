@@ -126,7 +126,7 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_interface.go">
           <provider selected="true" editor-type-id="text-editor">
             <state relative-caret-position="301">
@@ -171,11 +171,11 @@
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="false">
+      <file pinned="false" current-in-tab="true">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="494">
-              <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
+            <state relative-caret-position="95">
+              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
               <folding>
                 <element signature="e#14#61#0" expanded="true" />
               </folding>
@@ -298,8 +298,8 @@
         <option value="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" />
         <option value="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" />
         <option value="$PROJECT_DIR$/handlers.go" />
-        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/main_interface.go" />
+        <option value="$PROJECT_DIR$/main.go" />
       </list>
     </option>
   </component>
@@ -317,12 +317,6 @@
     <packageJsonPaths>
       <path value="$PROJECT_DIR$/.gotron/package.json" />
       <path value="$PROJECT_DIR$/interface/package.json" />
-      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/js/package.json" />
-      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/package.json" />
-      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/react/package.json" />
-      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/typescript/package.json" />
-      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/example/ui/vue/package.json" />
-      <path value="$PROJECT_DIR$/pkg/mod/github.com/!equanox/gotron@v0.2.23/templates/app/package.json" />
     </packageJsonPaths>
   </component>
   <component name="ProjectFrameBounds" fullScreen="true">
@@ -870,22 +864,22 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="494">
-          <caret line="58" column="1" lean-forward="true" selection-start-line="58" selection-start-column="1" selection-end-line="58" selection-end-column="1" />
-          <folding>
-            <element signature="e#14#61#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/main_interface.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="301">
           <caret line="185" selection-start-line="185" selection-end-line="185" />
           <folding>
             <element signature="e#14#77#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="95">
+          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+          <folding>
+            <element signature="e#14#61#0" expanded="true" />
           </folding>
         </state>
       </provider>

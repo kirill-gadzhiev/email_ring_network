@@ -1,4 +1,7 @@
 *.exe
+interface/node_modules_temp
+interface/build
+interface/node_modules
 .DS_Store
 gotron-builder
 dist-slave
