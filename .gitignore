@@ -4,3 +4,4 @@ gotron-builder
 dist-slave
 dist-master
 pkg
+vendor
