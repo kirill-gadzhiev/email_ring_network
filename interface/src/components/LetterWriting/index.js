@@ -52,6 +52,7 @@ const LetterWriting = (props) => {
         const availableUserEmails = availableUsers.map( user => user.email);
         if (!availableUserEmails.includes(responder)) {
             console.log('Такого пользователя нет в сети!', availableUsers, responder);
+            alert('Такого пользователя нет в сети!');
             return;
         }
 
@@ -59,7 +60,8 @@ const LetterWriting = (props) => {
         const author = userEmail;
         const date = Date.now();
         const checkedSubEvent = false;
-        const letter = {id, responder, message, author, date, checkedSubEvent};
+        const checked = false;
+        const letter = {id, responder, message, author, date, checkedSubEvent, checked};
 
         sendLetter(letter);
         setState({

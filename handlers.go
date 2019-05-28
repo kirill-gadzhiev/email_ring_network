@@ -10,6 +10,7 @@ import (
 
 func master(backPortMode *serial.Mode, backPortName string, frontPortMode *serial.Mode, frontPortName string) error {
 	// 0. Подключиться к заднему и переднему портам
+	fmt.Println("MASTER")
 	fmt.Println("try to open backport")
 	var backPort DataLinkLayer
 	err := backPort.logicalConnect(backPortMode, backPortName)
@@ -56,6 +57,16 @@ func master(backPortMode *serial.Mode, backPortName string, frontPortMode *seria
 		fmt.Println(err)
 		return err
 	}
+
+	fmt.Println("GetUserLetters")
+	letters, _, err := GetUserLetters(userCasted.User.Email)
+	if err != nil {
+		return err
+	}
+
+	fmt.Println("<-OldLettersEvent")
+	oldLettersEvent := OldLettersEvent{&gotron.Event{Event:SET_OLD_LETTERS}, letters}
+	core2interface <- oldLettersEvent
 
 	parser := &FrameParser{[]byte{}}
 	fmt.Println("frameparser made")
@@ -190,6 +201,7 @@ func master(backPortMode *serial.Mode, backPortName string, frontPortMode *seria
 
 func slave(backPortMode *serial.Mode, backPortName string, frontPortMode *serial.Mode, frontPortName string) error {
 	// 0. Подключиться к заднему и переднему портам
+	fmt.Println("SLAVE")
 	var backPort DataLinkLayer
 	fmt.Println("TRY TO OPEN BACKPORT: ", backPortName)
 	err := backPort.logicalConnect(backPortMode, backPortName)
@@ -335,9 +347,19 @@ func (d *DataLinkLayer) handleLinkFrame(receivedFrame Frame, core2interface chan
 		if !ok {
 			return errors.New("wrong event type")
 		}
-		return d.sendLinkFrameBySlave(receivedFrame, userCasted.User.Email)
-	}
+		err := d.sendLinkFrameBySlave(receivedFrame, userCasted.User.Email)
+		if err != nil {
+			return err
+		}
+		letters, _, err := GetUserLetters(userCasted.User.Email)
+		if err != nil {
+			return err
+		}
 
+		oldLettersEvent := OldLettersEvent{&gotron.Event{Event:SET_OLD_LETTERS}, letters}
+		core2interface <- oldLettersEvent
+		return nil
+	}
 	// 2. отправить link далее
 
 	return errors.New("wrong event from interface")

@@ -8,7 +8,7 @@ import {sendCloseWindow} from "../../CoreInteraction/InteractionService";
 
 const InteractionStarter = () => {
     const { setAvailableUsers, setConnection } = useNetworkContext();
-    const { letters, addLetter, setLetterChecked } = useLettersContext();
+    const { letters, addLetter, setLetterChecked, setLetters } = useLettersContext();
     const { inCom, outCom, ports, mergeState } = useComPortsContext();
 
     window.addEventListener('beforeunload', () => {
@@ -19,6 +19,13 @@ const InteractionStarter = () => {
         bus.on(EVENT_TYPES.NETWORK_STATUS, data => {
             setAvailableUsers(data.networkStatus.availableUsers);
             setConnection(data.networkStatus.connection);
+        });
+    }, []);
+
+    useEffect( () => {
+        bus.on(EVENT_TYPES.SET_OLD_LETTERS, data => {
+            console.log(data.letters);
+            setLetters(data.letters);
         });
     }, []);
 

@@ -1,0 +1,1845 @@
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+Serial port busy
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+Found port: COM1
+Found port: COM2
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49820
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '33b8f807-cbed-4906-8bb6-b244e755629f' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+cinside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  39  bytes: Letter message:  kek
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  173  byinside listen for
+inside listen for
+Data:  
+ACK_FRAME
+inside listen for
+Letter message:  bibibibbibi
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  180  bytes:  [255 1 2 129 174 123 34 105 100 34 58 34 49 53 53 56 56 56 48 51 52 51 56 52 53 57 50 51 46 54 53 48 49 52 57 57 50 56 55 56 48 49 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 98 105 98 105 98 105 98 98 105 98 105 34 44 34 100 97 116 101 34 58 49 53 53 56 56 56 48 51 52 51 56 52 53 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558880343845923.6501499287801slave@mail.ru","author":"slave@mail.ru","responder":"master@mail.ru","message":"bibibibbibi","date":1558880343845,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031990 {1558880343845923.6501499287801slave@mail.ru slave@mail.ru master@mail.ru bibibibbibi 1558880343845 true}}
+before mutex
+ mutex.lock
+inside listen for
+mesage event {0xc000031990 {1558880343845923.6501499287801slave@mail.ru slave@mail.ru master@mail.ru bibibibbibi 1558880343845 true}}
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+ge:  bibibibbibi
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49827
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '7cce66be-b516-4566-93fc-7407512e8af5' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTROinside listen for
+inside listen for
+inside listen inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+Letter message:  привет
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  182  bytes:  [255 2 1 129 176 123 34 105 100 34 58 34 49 53 53 56 56 56 48 53 53 49 52 56 48 54 55 53 46 53 51 53 51 49 52 52 49 56 53 49 48 56 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 208 191 209 128 208 184 208 178 208 181 209 130 34 44 34 100 97 116 101 34 58 49 53 53 56 56 56 48 53 53 49 52 56 48 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558880551480675.5353144185108master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"привет","date":1558880551480,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031910 {1558880551480675.5353144185108master@mail.ru master@mail.ru slave@mail.ru привет 1558880551480 true}}
+before mutex
+ mutex.lock
+mesage event {0xc000031910 {1558880551480675.5353144185108master@mail.ru master@mail.ru slave@mail.ru привет 1558880551480 true}}
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+r@mail.ru привет 1558880551480 false}}
+Letter message:  привет
+before mutex
+ mutex.lock
+inside listen for
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+inside listen for
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49695
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '63ebe475-0ace-4a4e-8b05-aef2b7778797' }
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49732
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'a3137529-59e6-43fc-b56c-8dc83a49ef4c' }
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+sed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49737
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '1076424b-3c11-4656-a385-1b3ad9759dc8' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+old letters event {0xc000031720 []}
+old letters event casted {0xc000031720 []}
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+iinside listen for
+inside listen for
+inside listen for
+Data:  
+ACK_FRAME
+inside listen for
+Letter message:  privet 
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  179  bytes:  [255 1 1 129 173 123 34 105 100 34 58 34 49 53 53 56 56 57 53 50 57 55 48 50 57 50 57 49 46 51 50 51 56 48 49 48 48 48 51 53 49 54 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 112 114 105 118 101 116 32 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 53 50 57 55 48 50 57 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558895297029291.3238010003516master@mail.ru","author":"master@mail.ru","responder":"master@mail.ru","message":"privet ","date":1558895297029,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031a20 {1558895297029291.3238010003516master@mail.ru master@mail.ru master@mail.ru privet  1558895297029 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031a20 {1558895297029291.3238010003516master@mail.ru master@mail.ru master@mail.ru privet  1558895297029 false}}
+inside listen for
+inside listen for
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+inside listen for
+len:  176  bytes:  [255 1 2 129 170 123 34 105 100 34 58 34 49 53 53 56 56 57 53 52 48 55 49 57 50 55 55 56 46 55 51 48 55 56 49 51 49 56 57 53 55 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 115 100 102 115 100 102 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 53 52 48 55 49 57 50 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558895407192778.730781318957master@mail.ru","author":"slave@mail.ru","responder":"master@mail.ru","message":"sdfsdf","date":1558895407192,"checkedSubEvent":false}
+INFO_FRAME
+send message event to interface {0xc000031b00 {1558895407192778.730781318957master@mail.ru slave@mail.ru master@mail.ru sdfsdf 1558895407192 false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031b00 {1558895407192778.730781318957master@mail.ru slave@mail.ru master@mail.ru sdfsdf 1558895407192 false}}
+inside listen for
+inside listen for
+len:  173  bytes:  [255 1 2 129 167 123 34 105 100 34 58 34 49 53 53 56 56 57 53 50 52 50 48 50 57 52 49 51 46 48 54 55 55 50 50 56 50 49 49 57 51 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 117 115 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 53 50 52 50 48 50 57 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558895242029413.067722821193slave@mail.ru","author":"slave@mail.ru","responder":"master@mail.ru","message":"kekus","date":1558895242029,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xinside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+8 54 55 55 50 50 56 50 49 49 57 51 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 117 115 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 53 50 52 50 48 50 57 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558895242029413.067722821193slave@mail.ru","author":"slave@mail.ru","responder":"master@mail.ru","message":"kekus","date":1558895242029,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031b80 {1558895242029413.067722821193slave@mail.ru slave@mail.ru master@mail.ru kekus 1558895242029 true}}
+mesage event {0xc000031b80 {1558895242029413.067722821193slave@mail.ru slave@mail.ru master@mail.ru kekus 1558895242029 true}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+len:  173  bytes:  [255 1 2 129 167 123 34 105 100 34 58 34 49 53 53 56 56 57 53 50 52 50 48 50 57 52 49 51 46 48 54 55 55 50 50 56 50 49 49 57 51 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 107 101 107 117 115 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 53 50 52 50 48 50 57 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 125 255]
+Data:  {"id":"1558895242029413.067722821193slave@mail.ru","author":"slave@mail.ru","responder":"master@mail.ru","message":"kekus","date":1558895242029,"checkedSubEvent":true}
+INFO_FRAME
+send message event to interface {0xc000031bb0 {1558895242029413.067722821193slave@mail.ru slave@mail.ru master@mail.ru kekus 1558895242029 true}}
+mesage event {0xc000031bb0 {1558895242029413.067722821193slave@mail.ru slave@mail.ru master@mail.ru kekus 1558895242029 true}}
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49742
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '036e9ed5-2515-45b8-b9a7-7ad817f960e3' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+old letters event {0xc000031760 [{1558895242029413.067722821193slave@mail.ru master@mail.ru slave@mail.ru kekus 1558895242029 true} {1558895407192778.730781318957master@mail.ru slave@mail.ru master@mail.ru sdfsdf 1558895407192 false}]}
+old letters event casted {0xc000031760 [{1558895242029413.067722821193slave@mail.ru master@mail.ru slave@mail.ru kekus 1558895242029 true} {1558895407192778.730781318957master@mail.ru slave@mail.ru master@mail.ru sdfsdf 1558895407192 false}]}
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+inside listen for
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+mail.ru
+
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+state:  map[1:master@mail.ru 2:slave@mail.ru]
+before mutex
+ mutex.lock
+send state frame
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+got state frame after ring:   master@mail.ru
+ slave@mail.ru
+
+now master = slave
+inside listen for
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49749
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '050bf105-8012-4477-83c8-3ba5ae4c2fde' }
+Connection Error: Error: write after end
+Websockt Connection Closed
+ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+MASTER
+try to open backport
+try to open frontport
+chans made
+interface made
+
+Main.js
+49757
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'd542b630-d176-4330-bdd4-fff61c13e207' }
+User email:  master@mail.ru
+got event from chan  SET_USER_GOTRON_EVENT {SET_USER_GOTRON_EVENT {master@mail.ru}}
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENinside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listenConnection Error: Error: read ECONNRESET
+Websockt Connection Closed
+n:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49755
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'b27a7065-4cfb-4796-80e6-9389feca4ce0' }
+User email:  master@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {master@mail.ru}}
+before mutex
+ mutex.lock
+unexpected end of JSON input
+Connection Error: Error: write after end
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49762
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'd1ce64f4-aa3e-4406-9c9b-6539fd4eba26' }
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+d ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49767
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'df339b47-77f7-4b91-80c8-c62932ba1340' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+createIfNeed
+after createIfnedd <nil>
+old letters event {0xc000031730 []}
+old letters event casted {0xc000031730 []}
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+Letter message:  privet
+createIfNeed
+after createIfnedd <nil>
+createIfNeed
+after createIfnedd <nil>
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+ACK_FRAME
+inside listen for
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  192  bytes:  [255 2 1 129 186 123 34 105 100 34 58 34 49 53 53 56 56 57 55 56 48 52 49 53 55 57 51 51 46 56 52 50 56 52 49 50 54 54 54 51 50 54 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 112 114 105 118 101 116 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 55 56 48 52 49 53 55 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 44 34 99 104 101 99 107 101 100 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558897804157933.8428412666326master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"privet","date":1558897804157,"checkedSubEvent":true,"checked":false}
+INFO_FRAME
+send message event to interface {0xc000031a50 {1558897804157933.8428412666326master@mail.ru master@mail.ru slave@mail.ru privet 1558897804157 true false}}
+before mutex
+ mutex.lock
+mesage event {0xc000031a50 {1558897804157933.8428412666326master@mail.ru master@mail.ru slave@mail.ru privet 1558897804157 true false}}
+createIfNeed
+after createIfnedd <nil>
+createIfNeed
+after createIfnedd <nil>
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+ction Error: Error: write after end
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49775
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: '5d845044-6130-490f-aba5-6b753f6e797b' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+createIfNeed
+after createIfnedd <nil>
+old letters event {0xc000031740 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true false}]}
+old letters event casted {0xc000031740 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true false}]}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+d state frame
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+got state frame after ring:   master@mail.ru
+ slave@mail.ru
+
+now master = slave
+inside listen for
+inside listen for
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49787
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'b906c924-9631-4d84-a92f-526c46310c9b' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+createIfNeed
+inside listen for
+inside listen for
+after createIfnedd <nil>
+inside listen for
+range ch
+range ch
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+old letters event {0xc000031750 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true false}]}
+old letters event casted {0xc000031750 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true false}]}
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range inside listen for
+Data:  
+ACK_FRAME
+inside listen for
+inside listen for
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+inside listen for
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+e listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  192  bytes:  [255 2 1 129 186 123 34 105 100 34 58 34 49 53 53 56 56 57 55 56 48 52 49 53 55 57 51 51 46 56 52 50 56 52 49 50 54 54 54 51 50 54 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 97 117 116 104 111 114 34 58 34 109 97 115 116 101 114 64 109 97 105 108 46 114 117 34 44 34 114 101 115 112 111 110 100 101 114 34 58 34 115 108 97 118 101 64 109 97 105 108 46 114 117 34 44 34 109 101 115 115 97 103 101 34 58 34 112 114 105 118 101 116 34 44 34 100 97 116 101 34 58 49 53 53 56 56 57 55 56 48 52 49 53 55 44 34 99 104 101 99 107 101 100 83 117 98 69 118 101 110 116 34 58 116 114 117 101 44 34 99 104 101 99 107 101 100 34 58 102 97 108 115 101 125 255]
+Data:  {"id":"1558897804157933.8428412666326master@mail.ru","author":"master@mail.ru","responder":"slave@mail.ru","message":"privet","date":1558897804157,"checkedSubEvent":true,"checked":false}
+INFO_FRAME
+send message event to interface {0xc0000319e0 {1558897804157933.8428412666326master@mail.ru master@mail.ru slave@mail.ru privet 1558897804157 true false}}
+before mutex
+ mutex.lock
+message event {0xc0000319e0 {1558897804157933.8428412666326master@mail.ru master@mail.ru slave@mail.ru privet 1558897804157 true false}}
+createIfNeed
+after createIfnedd <nil>
+createIfNeed
+after createIfnedd <nil>
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49792
+WebSocket Client Connected
+Received message:
+{ Event: 'devTools',
+  Data: '',
+  ID: 'bb3f50ff-6cc2-4559-80e7-a78e77dc0502' }
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+createIfNeed
+after createIfnedd <nil>
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+range ch
+range ch
+inside listen for
+old letters event {0xc000031760 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+old letters event casted {0xc000031760 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+inside listen for
+inside listen for
+range ch
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write after end
+Websockt Connection Closed
+d state frame
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+got state frame after ring:   master@mail.ru
+ slave@mail.ru
+
+now master = slave
+inside listen for
+inside listen for
+inside listen for
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+TERMINATE
+before mutex
+ mutex.lock
+Connection Error: Error: write ECONNRESET
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+MASTER
+try to open backport
+try to open frontport
+chans made
+interface made
+
+Main.js
+49800
+WebSocket Client Connected
+User email:  master@mail.ru
+got event from chan  SET_USER_GOTRON_EVENT {SET_USER_GOTRON_EVENT {master@mail.ru}}
+cast email
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:after createIfnedd <nil>
+<-OldLettersEvent
+frameparser made
+start listening
+inside listen for
+old letters event {0xc000031610 [{1558897804157933.8428412666326master@mail.ru slave@m
+Main.js
+49798
+WebSocket Client Connected
+User email:  master@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {master@mail.ru}}
+before mutex
+ mutex.lock
+createIfNeed
+after createIfnedd <nil>
+inside listen for
+inside listen for
+range ch
+range ch
+old letters event {0xc000031680 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+old letters event casted {0xc000031680 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+inside listen for
+inside listen for
+range ch
+range ch
+len:  40  bytes:  [255 127 1 134 34 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ master@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen forConnection Error: Error: write after end
+Websockt Connection Closed
+:  [255 127 1 134 34 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+got state frame after ring:   master@mail.ru
+ master@mail.ru
+
+now master = slave
+inside listen for
+TERMINATE
+before mutex
+Connection Error: Error: write after end
+ mutex.lock
+Websockt Connection Closed
+de
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+inside listen for
+inside listen for
+inside listen for
+ackport
+try to open frontport
+chans made
+interface made
+
+Main.js
+49805
+WebSocket Client Connected
+User email:  master@mail.ru
+got event from chan  SET_USER_GOTRON_EVENT {SET_USER_GOTRON_EVENT {master@mail.ru}}
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {master@mail.ru}}
+sendLinkFrameByMaster master@mail.ru
+1
+2
+3
+4
+before mutex
+ mutex.lock
+send link frame
+GetUserLetters
+createIfNeed
+after createIfnedd <nil>
+<-OldLettersEvent
+frameparser made
+start listening
+inside listen for
+old letters event {0xc000031600 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+old letters event casted {0xc000031600 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+TERMINATE
+before mutex
+Connection Error: Error: write after end
+ mutex.lock
+Websockt Connection Closed
+Found port: COM1
+Found port: COM2
+SLAVE
+TRY TO OPEN BACKPORT:  COM1
+TRY TO OPEN FRONTPORT:  COM2
+chans made
+parser made
+start listen
+after go listen
+inside listen for
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+len:  23  bytes:  [255 127 1 130 17 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+
+LINK_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+
+Main.js
+49804
+WebSocket Client Connected
+User email:  slave@mail.ru
+cast email
+OK:  true userCasted:  {SET_USER_GOTRON_EVENT {slave@mail.ru}}
+before mutex
+ mutex.lock
+createIfNeed
+after createIfnedd <nil>
+inside listen for
+inside listen for
+range ch
+range ch
+old letters event {0xc000031670 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+old letters event casted {0xc000031670 [{1558897804157933.8428412666326master@mail.ru slave@mail.ru master@mail.ru privet 1558897804157 true true}]}
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+inside listen for
+range ch
+range ch
+inside listen for
+range ch
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+Data:   master@mail.ru
+ slave@mail.ru
+
+STATE_FRAME
+client:   master@mail.ru  clientInfo:  [ master@mail.ru]
+client:   slave@mail.ru  clientInfo:  [ slave@mail.ru]
+now will send state frame
+before mutex
+ mutex.lock
+TERMINATE
+Connection Error: Error: write after end
+before mutex
+Websockt Connection Closed
+ mutex.lock
+ for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+inside listen for
+len:  39  bytes:  [255 127 1 134 33 1 32 109 97 115 116 101 114 64 109 97 105 108 46 114 117 10 2 32 115 108 97 118 101 64 109 97 105 108 46 114 117 10 255]
+got state frame after ring:   master@mail.ru
+ slave@mail.ru
+
+now master = slave
+inside listen for
+inside listen for
+inside listen for
+Data:  
+UPLINK_FRAME
+before mutex
+ mutex.lock
+inside listen for

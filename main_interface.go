@@ -13,6 +13,8 @@ const (
 	SET_USER 		          = "SET_USER_GOTRON_EVENT"
 	SET_USER_RESPONSE         = "SET_USER_RESPONSE_GOTRON_EVENT"
 
+	SET_OLD_LETTERS			  = "SET_OLD_LETTERS_GOTRON_EVENT"
+
 	NETWORK_STATUS            = "NETWORK_STATUS_GOTRON_EVENT"
 	INTERFACE_READY		      = "INTERFACE_READY_GOTRON_EVENT"
 	CLOSE_WINDOW              = "CLOSE_WINDOW_GOTRON_EVENT"
@@ -37,11 +39,17 @@ type Letter struct {
 	Message string `json:"message"`
 	Date int64 `json:"date"`
 	CheckedSubEvent bool `json:"checkedSubEvent"`
+	Checked bool `json:"checked"`
 }
 
 type LetterEvent struct {
 	Event string `json:"event"`
 	Letter Letter `json:"letter"`
+}
+
+type OldLettersEvent struct {
+	*gotron.Event
+	Letters []Letter `json:"letters"`
 }
 
 type NetworkStatus struct {
@@ -100,6 +108,9 @@ func (e MessageReceivedEvent) GetEvent() string {
 	return e.Event.Event
 }
 func (e SetUserResponseEvent) GetEvent() string {
+	return e.Event.Event
+}
+func (e OldLettersEvent) GetEvent() string {
 	return e.Event.Event
 }
 
@@ -179,6 +190,10 @@ func initializeInterface(core2interface <-chan SomeEvent, interface2core chan<- 
 			return
 		}
 		fmt.Println("Letter message: ", letterEvent.Letter.Message)
+		err = CreateOrUpdateUserLetter(currentUser, letterEvent.Letter)
+		if err != nil {
+			fmt.Println(err)
+		}
 		frontPort.sendLetter(letterEvent.Letter)
 	})
 
@@ -217,7 +232,7 @@ func initializeInterface(core2interface <-chan SomeEvent, interface2core chan<- 
 
 
 	// Open dev tools must be used after window.Start
-	window.OpenDevTools()
+	//window.OpenDevTools()
 
 	for event := range core2interface {
 		if event.GetEvent() == NETWORK_STATUS {
@@ -226,12 +241,25 @@ func initializeInterface(core2interface <-chan SomeEvent, interface2core chan<- 
 				continue
 			}
 			window.Send(castedEvent)
-			//sendNetworkStatusEvent( true, availableUsers, window)
 			continue
 		}
 		if event.GetEvent() == MESSAGE_RECEIVED {
-			fmt.Println("mesage event", event)
+			fmt.Println("message event", event)
 			castedEvent, ok := event.(MessageReceivedEvent)
+			if !ok {
+				continue
+			}
+			err = CreateOrUpdateUserLetter(currentUser, castedEvent.Letter)
+			if err != nil {
+				fmt.Println(err)
+			}
+			window.Send(castedEvent)
+			continue
+		}
+		if event.GetEvent() == SET_OLD_LETTERS {
+			fmt.Println("old letters event", event)
+			castedEvent, ok := event.(OldLettersEvent)
+			fmt.Println("old letters event casted", event)
 			if !ok {
 				continue
 			}

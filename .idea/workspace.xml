@@ -4,52 +4,19 @@
     <list default="true" id="3f79cd57-329b-4029-8b76-c7b5e9afef52" name="Default" comment="">
       <change beforePath="$PROJECT_DIR$/.gotron/assets/asset-manifest.json" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/assets/asset-manifest.json" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gotron/assets/index.html" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/assets/index.html" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/precache-manifest.84ba7ce406b508dc869bf57ebf4a8ab2.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/precache-manifest.698e9707d5079cf0b70ba74774be8d9f.js" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gotron/assets/service-worker.js" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/assets/service-worker.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/css/main.f8eded6e.chunk.css" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/css/main.f8eded6e.chunk.css.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/2.4b3e8438.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/2.4b3e8438.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/main.622852da.chunk.js" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/main.622852da.chunk.js.map" beforeDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Makefile" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Makefile" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/bufferutil/src/bufferutil.o.d" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/validation/src/validation.o.d" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/.deps/Release/obj.target/validation/src/validation.o.d" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/main.834fd114.chunk.js" beforeDir="false" />
+      <change beforePath="$PROJECT_DIR$/.gotron/assets/static/js/main.834fd114.chunk.js.map" beforeDir="false" />
       <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/bufferutil.node" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/bufferutil.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/bufferutil/src/bufferutil.o" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/bufferutil/src/bufferutil.o" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/validation/src/validation.o" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/obj.target/validation/src/validation.o" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/validation.node" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/Release/validation.node" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/bufferutil.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/bufferutil.target.mk" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/config.gypi" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/config.gypi" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/validation.target.mk" beforeDir="false" afterPath="$PROJECT_DIR$/.gotron/node_modules/websocket/build/validation.target.mk" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/.idea/workspace.xml" beforeDir="false" afterPath="$PROJECT_DIR$/.idea/workspace.xml" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/DataLinkLayer.go" beforeDir="false" afterPath="$PROJECT_DIR$/DataLinkLayer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/PhysicalLayer.go" beforeDir="false" afterPath="$PROJECT_DIR$/PhysicalLayer.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/go.sum" beforeDir="false" afterPath="$PROJECT_DIR$/go.sum" afterDir="false" />
+      <change beforePath="$PROJECT_DIR$/dist-slave/dist/win-unpacked/logfile" beforeDir="false" afterPath="$PROJECT_DIR$/dist-slave/dist/win-unpacked/logfile" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/handlers.go" beforeDir="false" afterPath="$PROJECT_DIR$/handlers.go" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/package-lock.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface/package-lock.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/package.json" beforeDir="false" afterPath="$PROJECT_DIR$/interface/package.json" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogList/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogList/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogMini/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogMini/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/LeftColumn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LeftColumn/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterReading/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterReading/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterToolPanel/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/RightColumn/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/RightColumn/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/UserMini/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/UserMini/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/UsersList/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/UsersList/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/components/UsersList/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/components/UsersList/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/contexts/networkContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/contexts/networkContext.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/index.css" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/index.css" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/stories/index.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/stories/index.js" afterDir="false" />
-      <change beforePath="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" beforeDir="false" afterPath="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main.go" beforeDir="false" afterPath="$PROJECT_DIR$/main.go" afterDir="false" />
       <change beforePath="$PROJECT_DIR$/main_interface.go" beforeDir="false" afterPath="$PROJECT_DIR$/main_interface.go" afterDir="false" />
     </list>
@@ -66,7 +33,7 @@
     <session id="1547786580">
       <usages-collector id="statistics.lifecycle.project">
         <counts>
-          <entry key="project.closed" value="5" />
+          <entry key="project.closed" value="6" />
           <entry key="project.open.time.10" value="1" />
           <entry key="project.open.time.11" value="1" />
           <entry key="project.open.time.13" value="1" />
@@ -81,8 +48,8 @@
       <usages-collector id="statistics.file.extensions.open">
         <counts>
           <entry key="css" value="7" />
-          <entry key="go" value="45" />
-          <entry key="js" value="67" />
+          <entry key="go" value="53" />
+          <entry key="js" value="68" />
           <entry key="md" value="1" />
           <entry key="svg" value="4" />
         </counts>
@@ -90,8 +57,8 @@
       <usages-collector id="statistics.file.types.open">
         <counts>
           <entry key="CSS" value="7" />
-          <entry key="Go" value="45" />
-          <entry key="JavaScript" value="67" />
+          <entry key="Go" value="53" />
+          <entry key="JavaScript" value="68" />
           <entry key="PLAIN_TEXT" value="1" />
           <entry key="SVG" value="4" />
         </counts>
@@ -99,15 +66,15 @@
       <usages-collector id="statistics.file.extensions.edit">
         <counts>
           <entry key="css" value="407" />
-          <entry key="go" value="11644" />
-          <entry key="js" value="4559" />
+          <entry key="go" value="14429" />
+          <entry key="js" value="4646" />
         </counts>
       </usages-collector>
       <usages-collector id="statistics.file.types.edit">
         <counts>
           <entry key="CSS" value="407" />
-          <entry key="Go" value="11644" />
-          <entry key="JavaScript" value="4559" />
+          <entry key="Go" value="14429" />
+          <entry key="JavaScript" value="4646" />
         </counts>
       </usages-collector>
     </session>
@@ -117,8 +84,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="435">
-              <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
+            <state relative-caret-position="410">
+              <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
               <folding>
                 <element signature="e#0#51#0" expanded="true" />
               </folding>
@@ -129,8 +96,8 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main_interface.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="301">
-              <caret line="185" selection-start-line="185" selection-end-line="185" />
+            <state relative-caret-position="284">
+              <caret line="235" selection-start-line="235" selection-end-line="235" />
               <folding>
                 <element signature="e#14#77#0" expanded="true" />
               </folding>
@@ -141,71 +108,59 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/handlers.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="470">
-              <caret line="360" column="44" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
+            <state relative-caret-position="355">
+              <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/App.js">
+        <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="252">
-              <caret line="12" column="21" selection-start-line="12" selection-start-column="21" selection-end-line="12" selection-end-column="21" />
+            <state relative-caret-position="807">
+              <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
               <folding>
-                <element signature="e#0#26#0" expanded="true" />
+                <element signature="e#0#52#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js">
+        <entry file="file://$PROJECT_DIR$/CycleCode.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="80">
-              <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+            <state relative-caret-position="2909">
+              <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="false">
+        <entry file="file://$PROJECT_DIR$/LettersStore.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="122">
+              <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
               <folding>
-                <element signature="e#0#39#0" expanded="true" />
+                <element signature="e#14#47#0" expanded="true" />
               </folding>
             </state>
           </provider>
         </entry>
       </file>
-      <file pinned="false" current-in-tab="true">
+      <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/main.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="95">
-              <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
-              <folding>
-                <element signature="e#14#61#0" expanded="true" />
-              </folding>
+            <state relative-caret-position="504">
+              <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
             </state>
           </provider>
         </entry>
       </file>
       <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useNetworkContext.js">
+        <entry file="file://$PROJECT_DIR$/DataLinkLayer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="63">
-              <caret line="4" column="13" selection-start-line="4" selection-start-column="13" selection-end-line="4" selection-end-column="13" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="600">
-              <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-            </state>
-          </provider>
-        </entry>
-      </file>
-      <file pinned="false" current-in-tab="false">
-        <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/ws.js">
-          <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="210">
-              <caret line="10" column="59" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="59" />
+            <state relative-caret-position="206">
+              <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
             </state>
           </provider>
         </entry>
@@ -213,8 +168,17 @@
       <file pinned="false" current-in-tab="false">
         <entry file="file://$PROJECT_DIR$/PhysicalLayer.go">
           <provider selected="true" editor-type-id="text-editor">
-            <state relative-caret-position="-488">
-              <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
+            <state relative-caret-position="632">
+              <caret line="134" column="22" lean-forward="true" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+            </state>
+          </provider>
+        </entry>
+      </file>
+      <file pinned="false" current-in-tab="true">
+        <entry file="file://$PROJECT_DIR$/Frame.go">
+          <provider selected="true" editor-type-id="text-editor">
+            <state relative-caret-position="25">
+              <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
             </state>
           </provider>
         </entry>
@@ -225,8 +189,8 @@
     <option name="RECENT_TEMPLATES">
       <list>
         <option value="CSS File" />
-        <option value="Go File" />
         <option value="JavaScript File" />
+        <option value="Go File" />
       </list>
     </option>
   </component>
@@ -237,6 +201,7 @@
       <find>bus.on</find>
       <find>import bus</find>
       <find>interface2core</find>
+      <find>json</find>
     </findStrings>
     <dirStrings>
       <dir>$PROJECT_DIR$</dir>
@@ -249,8 +214,6 @@
   <component name="IdeDocumentHistory">
     <option name="CHANGED_PATHS">
       <list>
-        <option value="$PROJECT_DIR$/interface/src/components/LetterWritingToolPanel/index.css" />
-        <option value="$PROJECT_DIR$/interface/src/userContext.js" />
         <option value="$PROJECT_DIR$/interface/src/components/Auth/index.css" />
         <option value="$PROJECT_DIR$/interface/src/components/TabBar/index.css" />
         <option value="$PROJECT_DIR$/interface/src/components/TabBar/index.js" />
@@ -289,17 +252,19 @@
         <option value="$PROJECT_DIR$/interface/src/stories/index.js" />
         <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.css" />
         <option value="$PROJECT_DIR$/interface/src/components/DialogMini/index.js" />
-        <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" />
         <option value="$PROJECT_DIR$/interface/src/components/DialogList/index.js" />
         <option value="$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js" />
-        <option value="$PROJECT_DIR$/DataLinkLayer.go" />
         <option value="$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron.go" />
         <option value="$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js" />
+        <option value="$PROJECT_DIR$/main.go" />
         <option value="$PROJECT_DIR$/interface/src/CoreInteraction/ws.js" />
+        <option value="$PROJECT_DIR$/CycleCode.go" />
         <option value="$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js" />
         <option value="$PROJECT_DIR$/handlers.go" />
+        <option value="$PROJECT_DIR$/interface/src/components/LetterWriting/index.js" />
+        <option value="$PROJECT_DIR$/LettersStore.go" />
         <option value="$PROJECT_DIR$/main_interface.go" />
-        <option value="$PROJECT_DIR$/main.go" />
+        <option value="$PROJECT_DIR$/DataLinkLayer.go" />
       </list>
     </option>
   </component>
@@ -527,27 +492,6 @@
     <option name="myLimit" value="2678400000" />
   </component>
   <component name="editorHistoryManager">
-    <entry file="file://$PROJECT_DIR$/Frame.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1638">
-          <caret line="82" selection-start-line="82" selection-end-line="82" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="1197">
-          <caret line="57" column="16" selection-start-line="57" selection-start-column="16" selection-end-line="57" selection-end-column="16" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/../go.bug.st/serial.v1/serial_unix.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="2793">
-          <caret line="143" column="5" selection-start-line="143" selection-start-column="5" selection-end-line="143" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/../golang.org/x/sys/unix/zsyscall_darwin_amd64.1_11.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="23667">
@@ -758,34 +702,10 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state>
-          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
-          <folding>
-            <element signature="e#0#52#0" expanded="true" />
-          </folding>
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/DataLinkLayer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="248">
-          <caret line="134" column="26" selection-start-line="134" selection-start-column="26" selection-end-line="134" selection-end-column="26" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file:///usr/local/go/src/net/http/server.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="235">
           <caret line="2420" column="5" selection-start-line="2420" selection-start-column="5" selection-end-line="2420" selection-end-column="5" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/PhysicalLayer.go">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="-488">
-          <caret line="66" column="24" selection-start-line="66" selection-start-column="24" selection-end-line="66" selection-end-column="24" />
         </state>
       </provider>
     </entry>
@@ -816,20 +736,6 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="600">
-          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
-        </state>
-      </provider>
-    </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/ws.js">
-      <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="210">
-          <caret line="10" column="59" selection-start-line="10" selection-start-column="4" selection-end-line="10" selection-end-column="59" />
-        </state>
-      </provider>
-    </entry>
     <entry file="file://$PROJECT_DIR$/vendor/github.com/Equanox/gotron/gotron_methods.go">
       <provider selected="true" editor-type-id="text-editor">
         <state relative-caret-position="351">
@@ -837,50 +743,109 @@
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.js">
+    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/ws.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="435">
-          <caret line="60" column="36" selection-start-line="60" selection-start-column="36" selection-end-line="60" selection-end-column="36" />
-          <folding>
-            <element signature="e#0#51#0" expanded="true" />
-          </folding>
+        <state relative-caret-position="168">
+          <caret line="8" column="62" selection-start-line="8" selection-start-column="62" selection-end-line="8" selection-end-column="62" />
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/handlers.go">
+    <entry file="file://$PROJECT_DIR$/interface/src/CoreInteraction/InteractionService.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="470">
-          <caret line="360" column="44" selection-start-line="360" selection-start-column="44" selection-end-line="360" selection-end-column="44" />
+        <state relative-caret-position="600">
+          <caret line="31" column="25" selection-start-line="31" selection-start-column="25" selection-end-line="31" selection-end-column="25" />
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/interface/src/components/InteractonStarter/index.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="80">
-          <caret line="13" column="51" lean-forward="true" selection-start-line="13" selection-start-column="51" selection-end-line="13" selection-end-column="51" />
+        <state relative-caret-position="316">
+          <caret line="26" column="38" selection-start-line="26" selection-start-column="38" selection-end-line="26" selection-end-column="38" />
           <folding>
             <element signature="e#0#39#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
-    <entry file="file://$PROJECT_DIR$/main_interface.go">
+    <entry file="file://$PROJECT_DIR$/interface/src/useContexts/useLettersContext.js">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="301">
-          <caret line="185" selection-start-line="185" selection-end-line="185" />
+        <state relative-caret-position="807">
+          <caret line="69" column="9" selection-start-line="69" selection-start-column="9" selection-end-line="69" selection-end-column="9" />
           <folding>
-            <element signature="e#14#77#0" expanded="true" />
+            <element signature="e#0#52#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/interface/src/components/LetterWriting/index.js">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="410">
+          <caret line="59" column="33" selection-start-line="59" selection-start-column="33" selection-end-line="59" selection-end-column="33" />
+          <folding>
+            <element signature="e#0#51#0" expanded="true" />
+          </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/LettersStore.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="122">
+          <caret line="74" column="34" selection-start-line="74" selection-start-column="34" selection-end-line="74" selection-end-column="34" />
+          <folding>
+            <element signature="e#14#47#0" expanded="true" />
           </folding>
         </state>
       </provider>
     </entry>
     <entry file="file://$PROJECT_DIR$/main.go">
       <provider selected="true" editor-type-id="text-editor">
-        <state relative-caret-position="95">
-          <caret line="6" column="1" selection-start-line="6" selection-start-column="1" selection-end-line="6" selection-end-column="1" />
+        <state relative-caret-position="504">
+          <caret line="27" column="5" selection-start-line="27" selection-start-column="5" selection-end-line="27" selection-end-column="5" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/main_interface.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="284">
+          <caret line="235" selection-start-line="235" selection-end-line="235" />
           <folding>
-            <element signature="e#14#61#0" expanded="true" />
+            <element signature="e#14#77#0" expanded="true" />
           </folding>
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/CycleCode.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="2909">
+          <caret line="220" column="9" selection-start-line="220" selection-start-column="9" selection-end-line="220" selection-end-column="9" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/handlers.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="355">
+          <caret line="75" column="18" lean-forward="true" selection-start-line="75" selection-start-column="18" selection-end-line="75" selection-end-column="18" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/PhysicalLayer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="632">
+          <caret line="134" column="22" lean-forward="true" selection-start-line="134" selection-start-column="22" selection-end-line="134" selection-end-column="22" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/DataLinkLayer.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="206">
+          <caret line="123" lean-forward="true" selection-start-line="123" selection-end-line="123" />
+        </state>
+      </provider>
+    </entry>
+    <entry file="file://$PROJECT_DIR$/Frame.go">
+      <provider selected="true" editor-type-id="text-editor">
+        <state relative-caret-position="25">
+          <caret line="16" column="19" lean-forward="true" selection-start-line="16" selection-start-column="19" selection-end-line="16" selection-end-column="19" />
         </state>
       </provider>
     </entry>

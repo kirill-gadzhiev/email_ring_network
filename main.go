@@ -1,13 +1,16 @@
 package main
 
 import (
-	"fmt"
+	"flag"
 	"go.bug.st/serial.v1"
-	"log"
 )
 
 func main() {
 	printPorts()
+
+	in := flag.String("in", "COM1", "входящий COM-порт")
+	out := flag.String("out", "COM2", "исходящий COM-порт")
+	isMaster := flag.Bool("master", false, "запустить версию ПО для администратора")
 
 	mode := &serial.Mode{
 		BaudRate: 9600,
@@ -16,13 +19,13 @@ func main() {
 		StopBits: serial.OneStopBit,
 	}
 
-	//testFrame, _ := createFrame(INFO_FRAME, BROADCAST, MAX_ADDRESS, []byte("EMAIL!RING!NETWORK!"))
-	//bytesToSend := testFrame.toBytesArray()
-	//fmt.Println("SENT: ", bytesToSend)
-	//testSender(bytesToSend)
+	flag.Parse()
 
-	slave(mode, "COM1", mode, "COM2")
-	//master(mode, "COM2", mode, "COM1")
+	if *isMaster {
+		master(mode, *in, mode, *out)
+	} else {
+		slave(mode, *in, mode, *out)
+	}
 }
 
 

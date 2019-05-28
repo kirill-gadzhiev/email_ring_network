@@ -143,6 +143,7 @@ func (d *DataLinkLayer) terminate() error {
 // эту функцию будем пихать в горутину наверн и она будет писать в канал если что-то пришло
 // в основном потоке считываем и действуем в зависимости от этого
 func (d *DataLinkLayer) listen(out chan<- []byte) error {
+
 	for {
 		fmt.Println("inside listen for")
 		// Reads up to 100 bytes
